@@ -661,6 +661,7 @@ section {
   background-repeat: no-repeat;
   padding: 7rem 0;
   font-size: 21px;
+  background-position-x: 7rem;
 }
 .services .service-inside{
 

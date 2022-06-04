@@ -83,7 +83,7 @@ p {
     background-image: url(img/circle.png);
     background-repeat: no-repeat;
     background-position: center;
-    padding: 10rem 0 0rem;
+    padding: 5rem 0 0rem;
     margin-bottom: 5rem;
 }
 
@@ -145,4 +145,20 @@ p {
     margin:1rem;
     text-align: center;
     width:225px;
+}
+.item-images{
+    padding:0
+}
+
+.owl-dots{
+    position:relative;
+    margin-top:-6rem !important;
+}
+.owl-theme .owl-dots .owl-dot span{
+    border:2px solid white;
+    background: transparent;
+    border-radius: 0;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background:white !important
 }

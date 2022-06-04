@@ -162,3 +162,7 @@ p {
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
     background:white !important
 }
+
+.navbar a{
+    font-weight: 400 !important;
+}

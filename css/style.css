@@ -131,14 +131,15 @@ section {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
-  bottom: 15px;
+  right: 5%;
+  bottom: 5%;
   z-index: 99999;
   background: #4154f1;
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 44px;
   border-radius: 4px;
   transition: all 0.4s;
+
 }
 
 .back-to-top i {
@@ -2183,13 +2184,12 @@ section {
     display:flex;
     justify-content: center;
     position: relative;
-    top: -17rem;
-    left: -50%;
   }
 
 .our-selected-tours > .container{
     position:absolute !important;
-    left:50% !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .contact-page{

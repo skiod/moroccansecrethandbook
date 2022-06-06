@@ -211,3 +211,10 @@ p {
        text-align: center !important;
    }
   }
+
+  @media (max-width: 1400px) {
+    .custom-card-x{
+        width:80% !important;
+        padding: 3rem 5rem !important;
+    }
+  }

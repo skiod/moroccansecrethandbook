@@ -173,3 +173,41 @@ p {
 .uc{
     text-transform: uppercase;
 }
+
+/* responsive */
+@media (max-width: 991px) {
+   p{
+       font-size: 16px !important;
+   }
+   .owl-carousel img{
+       height: 100% !important
+   }
+   .btn-home:first-child{
+       margin-right: initial !important;
+   }
+   .our-selected-tours > .container{
+       transform: initial !important;
+       padding:2rem 0
+   }
+   .container-custom-card-x{
+       transform: initial !important;
+       position : initial !important;
+   }
+   .hero-bg{
+       height: 300px !important;
+   }
+   .custom-card-x{
+       margin: 2rem 0 !important;
+       padding: 3rem 1rem !important
+   }
+   .interests-container{
+        justify-content: center;
+   }
+   .herox{
+       margin-bottom: 1rem !important;
+       padding-bottom: 1rem !important;
+   }
+   .our-story .container, .our-values .container {
+       text-align: center !important;
+   }
+  }

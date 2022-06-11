@@ -210,6 +210,12 @@ p {
    .our-story .container, .our-values .container {
        text-align: center !important;
    }
+   .mobile-version-off{
+    display: none !important;
+}
+.mobile-version-on{
+    display: block !important;
+}
   }
 
   @media (max-width: 1400px) {
@@ -220,7 +226,12 @@ p {
         padding: 1rem 1rem !important;
     }
   }
-
+  .mobile-version-off{
+    display: block ;
+  }
+  .mobile-version-on{
+    display: none ;
+  }
   .carousel-section,.herox{
     background-image: url('../img/bg.png');
     background-size: cover;

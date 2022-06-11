@@ -7,7 +7,7 @@ body {
     text-align: center;
     padding: 2rem;
     background: #eaeaea;
-    height: 500px;
+    height: 600px;
 }
 
 /* .item > div:first-child{
@@ -155,7 +155,7 @@ p {
 
 .owl-dots{
     position:relative;
-    margin-top:-6rem !important;
+    margin-top:-2rem !important;
 }
 .owl-theme .owl-dots .owl-dot span{
     border:2px solid white;
@@ -247,4 +247,17 @@ p {
   }
   .custom-card:hover > span{
     color:white !important;
+  }
+  .owl-carousel-3 img,
+  .owl-carousel-2 img,
+  .owl-carousel-1 img{
+    height: 100% !important;
+  }
+
+  .owl-carousel-3 .item-images,
+  .owl-carousel-2 .item-images,
+  .owl-carousel-1 .item-images {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 66%;
   }

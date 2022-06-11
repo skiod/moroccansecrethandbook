@@ -214,12 +214,26 @@ p {
 
   @media (max-width: 1400px) {
     .custom-card-x{
-        width:80% !important;
-        padding: 3rem 5rem !important;
+        /* width:80% !important; */
+        /* padding: 3rem 5rem !important; */
+        width: 100% !important;
+        padding: 1rem 1rem !important;
     }
   }
 
   .carousel-section,.herox{
     background-image: url('../img/bg.png');
     background-size: cover;
+  }
+
+  .custom-card:hover{
+    background:#19164dad;
+    color:white;
+    cursor: pointer;
+  }
+  .custom-card:hover > h6 {
+    color:white !important;
+  }
+  .custom-card:hover > span{
+    color:white !important;
   }

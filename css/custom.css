@@ -218,3 +218,8 @@ p {
         padding: 3rem 5rem !important;
     }
   }
+
+  .carousel-section,.herox{
+    background-image: url('../img/bg.png');
+    background-size: cover;
+  }

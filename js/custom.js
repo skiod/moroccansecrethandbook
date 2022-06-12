@@ -67,3 +67,31 @@ $('#four-img').click(() => {
         $('#bawsala').css('transform', 'rotate(130deg')
     }
 })
+
+$('#overview').click(() => {
+    $('#modalOneOverview').removeClass('display-none')
+    if (!$('#modalOneItinerary').hasClass('display-none')) {
+        $('#modalOneItinerary').addClass('display-none')
+    }
+    if (!$('#modalOneHightlight').hasClass('display-none')) {
+        $('#modalOneHightlight').addClass('display-none')
+    }
+})
+$('#itinerary').click(() => {
+    $('#modalOneItinerary').removeClass('display-none')
+    if (!$('#modalOneOverview').hasClass('display-none')) {
+        $('#modalOneOverview').addClass('display-none')
+    }
+    if (!$('#modalOneHightlight').hasClass('display-none')) {
+        $('#modalOneHightlight').addClass('display-none')
+    }
+})
+$('#hightlight').click(() => {
+    $('#modalOneHightlight').removeClass('display-none')
+    if (!$('#modalOneOverview').hasClass('display-none')) {
+        $('#modalOneOverview').addClass('display-none')
+    }
+    if (!$('#modalOneItinerary').hasClass('display-none')) {
+        $('#modalOneItinerary').addClass('display-none')
+    }
+})

@@ -2442,5 +2442,180 @@ section {
 .bawsala-card{
   height:600px;
   padding:0;
-  position:relative
+  position:relative;
+  cursor: pointer;
+}
+
+.cursor-pointer{
+  cursor:pointer !important;
+}
+.display-none{
+  display: none !important;
+}
+
+/* CSS For Overview: */
+.modalOneOverview{
+
+  padding:50px;
+
+}
+
+.modalOne-header{
+  min-height: 200px;
+  background-image: url('../img/popup-header-image.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#modalOneOverview .overview-container{
+  text-align: center;
+  position: relative;
+  padding: 70px;
+}
+
+.modal-body .bg-img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 750px;
+  z-index: 0;
+  max-width: 100%;
+}
+
+#modalOneOverview .overview-container .title{
+  max-width: 500px;
+  margin: auto;
+}
+
+#modalOneOverview .overview-container .btn{
+  width: 500px;
+  color: white;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+
+#modalOneOverview .overview-container .para{
+  max-width: 500px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* CSS For Itinerary: */
+
+#modalOneItinerary .left-content{
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url("../img/bg-overview.svg");
+  position: relative;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+#modalOneItinerary .left-content .img{
+  max-width: 250px;
+  margin: 0px auto 30px auto;
+}
+#modalOneItinerary .left-content .title{
+  margin-bottom: 30px;
+  color: #2EB3C0;
+}
+#modalOneItinerary .left-content .para{
+  margin-bottom: 30px;
+}
+#modalOneItinerary .left-content .col-left-footer .footer-item{
+  text-align: center;
+}
+#modalOneItinerary .left-content .col-left-footer .footer-item .img{
+  max-width: 100px;
+  margin: auto;
+}
+#modalOneItinerary .left-content .scroll-down{
+  position: absolute;
+  width: 150px;
+  bottom: -150px;
+  right: -50px;
+
+}
+
+
+#modalOneItinerary .right-content{
+  overflow-y: auto;
+  max-height: calc(100vh - 200px);
+}
+#modalOneItinerary .right-content .card-per-day{
+  display: flex;
+}
+#modalOneItinerary .right-content .card-per-day .left-part{
+  text-align: center;
+  background: #2EB3C0;
+}
+#modalOneItinerary .right-content .card-per-day .left-part .day{
+  color: white;
+}
+#modalOneItinerary .right-content .card-per-day .left-part .number{
+  color: white;
+}
+
+
+/* CSS For Hightlight: */
+#modalOneHightlight .hightlight-content{
+
+}
+#modalOneHightlight .hightlight-content .hightlight-section{
+  background-image: url("../img/bg-overview.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#modalOneHightlight .hightlight-content .hightlight-section .hightlight-card-header{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  position: relative;
+}
+#modalOneHightlight .hightlight-content .hightlight-section .hightlight-card-header .card-band{
+  background: #2EB3C0;
+  position: absolute;
+  height: 100%;
+  width: 90px;
+  left: 7%;
+  top: 0px;
+}
+#modalOneHightlight .hightlight-content .hightlight-section .hightlight-card-header .img{
+  max-width: 140px;
+}
+#modalOneHightlight .hightlight-content .hightlight-section .hightlight-card-header .title{
+  align-self: center;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+#modalOneHightlight .hightlight-content .hightlight-section .hightlight-card-body{
+  padding: 0px 25px;
+}
+#modalOneHightlight .hightlight-content .hightlight-section .hightlight-card-body .left-col{
+  padding: 30px 0px;
+  text-align: center;
+  display: flex;
+}
+#modalOneHightlight .hightlight-content .hightlight-section .hightlight-card-body .right-col{
+  padding: 30px 0px;
+  text-align: center;
+  display: flex;
+}
+#modalOneHightlight .hightlight-content .hightlight-section .hightlight-card-body .para{
+  margin-bottom: 20px;
+}
+#modalOneHightlight .hightlight-content .hightlight-section .hightlight-card-body .para:last-child{
+  margin-bottom: 0px;
+}
+#modalOneHightlight .hightlight-content .hightlight-section .hightlight-card-body .img{
+  max-width: 90%;
+  margin: auto;
 }

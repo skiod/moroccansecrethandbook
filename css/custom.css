@@ -7,7 +7,7 @@ body {
     text-align: center;
     padding: 2rem;
     background: #eaeaea;
-    height: 500px;
+    height: 600px;
 }
 
 /* .item > div:first-child{
@@ -155,7 +155,7 @@ p {
 
 .owl-dots{
     position:relative;
-    margin-top:-6rem !important;
+    margin-top:-2rem !important;
 }
 .owl-theme .owl-dots .owl-dot span{
     border:2px solid white;
@@ -210,11 +210,54 @@ p {
    .our-story .container, .our-values .container {
        text-align: center !important;
    }
+   .mobile-version-off{
+    display: none !important;
+}
+.mobile-version-on{
+    display: block !important;
+}
   }
 
   @media (max-width: 1400px) {
     .custom-card-x{
-        width:80% !important;
-        padding: 3rem 5rem !important;
+        /* width:80% !important; */
+        /* padding: 3rem 5rem !important; */
+        width: 100% !important;
+        padding: 1rem 1rem !important;
     }
+  }
+  .mobile-version-off{
+    display: block ;
+  }
+  .mobile-version-on{
+    display: none ;
+  }
+  .carousel-section,.herox{
+    background-image: url('../img/bg.png');
+    background-size: cover;
+  }
+
+  .custom-card:hover{
+    background:#19164dad;
+    color:white;
+    cursor: pointer;
+  }
+  .custom-card:hover > h6 {
+    color:white !important;
+  }
+  .custom-card:hover > span{
+    color:white !important;
+  }
+  .owl-carousel-3 img,
+  .owl-carousel-2 img,
+  .owl-carousel-1 img{
+    height: 100% !important;
+  }
+
+  .owl-carousel-3 .item-images,
+  .owl-carousel-2 .item-images,
+  .owl-carousel-1 .item-images {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 66%;
   }

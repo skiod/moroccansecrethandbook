@@ -1,3 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="12.177" height="12.177" viewBox="0 0 12.177 12.177">
-  <path id="Path_250" data-name="Path 250" d="M284.409,228.337a6.089,6.089,0,1,1,6.089-6.089A6.131,6.131,0,0,1,284.409,228.337Z" transform="translate(-278.32 -216.16)" fill="#19164d"/>
-</svg>
+<svg id="Component_10_2" data-name="Component 10 – 2" xmlns="http://www.w3.org/2000/svg" width="18.266" height="18.266" viewBox="0 0 18.266 18.266">
+                  <path id="Path_249" data-name="Path 249" d="M251.613,198.586a9.133,9.133,0,1,1,9.133-9.133A9.135,9.135,0,0,1,251.613,198.586Zm0-17.315a8.182,8.182,0,1,0,8.181,8.182A8.181,8.181,0,0,0,251.613,181.271Z" transform="translate(-242.48 -180.32)" fill="#19164d"/>
+                  <path id="Path_250" data-name="Path 250" d="M284.409,228.337a6.089,6.089,0,1,1,6.089-6.089A6.131,6.131,0,0,1,284.409,228.337Z" transform="translate(-275.275 -213.116)" fill="#19164d"/>
+                </svg>

@@ -2358,12 +2358,17 @@ section {
 }
 
 .our-selected-tours > div:first-child{
-    background-image: url('../img/scr2.png');
-    width: 100%;
-    height: 500px;
-    padding-top:3rem;
-  }
-
+  background-image: url('../img/scr2.png');
+  width: 100%;
+  height: 500px;
+  padding-top:3rem;
+}
+.cursor-pointer{
+  cursor:pointer !important;
+}
+.display-none{
+  display: none !important;
+}
 
 
 @media (max-width: 780px) {
@@ -2439,18 +2444,12 @@ section {
 
 
 
+/* Modal One */
 .bawsala-card{
   height:600px;
   padding:0;
   position:relative;
   cursor: pointer;
-}
-
-.cursor-pointer{
-  cursor:pointer !important;
-}
-.display-none{
-  display: none !important;
 }
 
 /* CSS For Overview: */
@@ -2616,6 +2615,429 @@ section {
   margin-bottom: 0px;
 }
 #modalOneHightlight .hightlight-content .hightlight-section .hightlight-card-body .img{
+  max-width: 90%;
+  margin: auto;
+}
+
+/* Modal Two */
+
+#modalTwoOverview .overview-container{
+  text-align: center;
+  position: relative;
+  padding: 70px;
+}
+
+#modalTwoOverview .overview-container .title{
+  max-width: 500px;
+  margin: auto;
+}
+
+#modalTwoOverview .overview-container .btn{
+  width: 500px;
+  color: white;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+
+#modalTwoOverview .overview-container .para{
+  max-width: 500px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* CSS For Itinerary: */
+
+#modalTwoItinerary .left-content{
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url("../img/bg-overview.svg");
+  position: relative;
+}
+
+#modalTwoItinerary .left-content .img{
+  max-width: 250px;
+  margin: 0px auto 30px auto;
+}
+#modalTwoItinerary .left-content .title{
+  margin-bottom: 30px;
+  color: #2EB3C0;
+}
+#modalTwoItinerary .left-content .para{
+  margin-bottom: 30px;
+}
+#modalTwoItinerary .left-content .col-left-footer .footer-item{
+  text-align: center;
+}
+#modalTwoItinerary .left-content .col-left-footer .footer-item .img{
+  max-width: 100px;
+  margin: auto;
+}
+#modalTwoItinerary .left-content .scroll-down{
+  position: absolute;
+  width: 150px;
+  bottom: -150px;
+  right: -50px;
+
+}
+
+
+#modalTwoItinerary .right-content{
+  overflow-y: auto;
+  max-height: calc(100vh - 200px);
+}
+#modalTwoItinerary .right-content .card-per-day{
+  display: flex;
+}
+#modalTwoItinerary .right-content .card-per-day .left-part{
+  text-align: center;
+  background: #2EB3C0;
+}
+#modalTwoItinerary .right-content .card-per-day .left-part .day{
+  color: white;
+}
+#modalTwoItinerary .right-content .card-per-day .left-part .number{
+  color: white;
+}
+
+
+/* CSS For Hightlight: */
+#modalTwoHightlight .hightlight-content{
+
+}
+#modalTwoHightlight .hightlight-content .hightlight-section{
+  background-image: url("../img/bg-overview.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#modalTwoHightlight .hightlight-content .hightlight-section .hightlight-card-header{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  position: relative;
+}
+#modalTwoHightlight .hightlight-content .hightlight-section .hightlight-card-header .card-band{
+  background: #2EB3C0;
+  position: absolute;
+  height: 100%;
+  width: 90px;
+  left: 7%;
+  top: 0px;
+}
+#modalTwoHightlight .hightlight-content .hightlight-section .hightlight-card-header .img{
+  max-width: 140px;
+}
+#modalTwoHightlight .hightlight-content .hightlight-section .hightlight-card-header .title{
+  align-self: center;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+#modalTwoHightlight .hightlight-content .hightlight-section .hightlight-card-body{
+  padding: 0px 25px;
+}
+#modalTwoHightlight .hightlight-content .hightlight-section .hightlight-card-body .left-col{
+  padding: 30px 0px;
+  text-align: center;
+  display: flex;
+}
+#modalTwoHightlight .hightlight-content .hightlight-section .hightlight-card-body .right-col{
+  padding: 30px 0px;
+  text-align: center;
+  display: flex;
+}
+#modalTwoHightlight .hightlight-content .hightlight-section .hightlight-card-body .para{
+  margin-bottom: 20px;
+}
+#modalTwoHightlight .hightlight-content .hightlight-section .hightlight-card-body .para:last-child{
+  margin-bottom: 0px;
+}
+#modalTwoHightlight .hightlight-content .hightlight-section .hightlight-card-body .img{
+  max-width: 90%;
+  margin: auto;
+}
+
+/* Modal Tree */
+
+#modalTreeOverview .overview-container{
+  text-align: center;
+  position: relative;
+  padding: 70px;
+}
+
+#modalTreeOverview .overview-container .title{
+  max-width: 500px;
+  margin: auto;
+}
+
+#modalTreeOverview .overview-container .btn{
+  width: 500px;
+  color: white;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+
+#modalTreeOverview .overview-container .para{
+  max-width: 500px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* CSS For Itinerary: */
+
+#modalTreeItinerary .left-content{
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url("../img/bg-overview.svg");
+  position: relative;
+}
+
+#modalTreeItinerary .left-content .img{
+  max-width: 250px;
+  margin: 0px auto 30px auto;
+}
+#modalTreeItinerary .left-content .title{
+  margin-bottom: 30px;
+  color: #2EB3C0;
+}
+#modalTreeItinerary .left-content .para{
+  margin-bottom: 30px;
+}
+#modalTreeItinerary .left-content .col-left-footer .footer-item{
+  text-align: center;
+}
+#modalTreeItinerary .left-content .col-left-footer .footer-item .img{
+  max-width: 100px;
+  margin: auto;
+}
+#modalTreeItinerary .left-content .scroll-down{
+  position: absolute;
+  width: 150px;
+  bottom: -150px;
+  right: -50px;
+
+}
+
+
+#modalTreeItinerary .right-content{
+  overflow-y: auto;
+  max-height: calc(100vh - 200px);
+}
+#modalTreeItinerary .right-content .card-per-day{
+  display: flex;
+}
+#modalTreeItinerary .right-content .card-per-day .left-part{
+  text-align: center;
+  background: #2EB3C0;
+}
+#modalTreeItinerary .right-content .card-per-day .left-part .day{
+  color: white;
+}
+#modalTreeItinerary .right-content .card-per-day .left-part .number{
+  color: white;
+}
+
+
+/* CSS For Hightlight: */
+#modalTreeHightlight .hightlight-content{
+
+}
+#modalTreeHightlight .hightlight-content .hightlight-section{
+  background-image: url("../img/bg-overview.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#modalTreeHightlight .hightlight-content .hightlight-section .hightlight-card-header{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  position: relative;
+}
+#modalTreeHightlight .hightlight-content .hightlight-section .hightlight-card-header .card-band{
+  background: #2EB3C0;
+  position: absolute;
+  height: 100%;
+  width: 90px;
+  left: 7%;
+  top: 0px;
+}
+#modalTreeHightlight .hightlight-content .hightlight-section .hightlight-card-header .img{
+  max-width: 140px;
+}
+#modalTreeHightlight .hightlight-content .hightlight-section .hightlight-card-header .title{
+  align-self: center;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+#modalTreeHightlight .hightlight-content .hightlight-section .hightlight-card-body{
+  padding: 0px 25px;
+}
+#modalTreeHightlight .hightlight-content .hightlight-section .hightlight-card-body .left-col{
+  padding: 30px 0px;
+  text-align: center;
+  display: flex;
+}
+#modalTreeHightlight .hightlight-content .hightlight-section .hightlight-card-body .right-col{
+  padding: 30px 0px;
+  text-align: center;
+  display: flex;
+}
+#modalTreeHightlight .hightlight-content .hightlight-section .hightlight-card-body .para{
+  margin-bottom: 20px;
+}
+#modalTreeHightlight .hightlight-content .hightlight-section .hightlight-card-body .para:last-child{
+  margin-bottom: 0px;
+}
+#modalTreeHightlight .hightlight-content .hightlight-section .hightlight-card-body .img{
+  max-width: 90%;
+  margin: auto;
+}
+
+/* Modal Four */
+
+#modalFourOverview .overview-container{
+  text-align: center;
+  position: relative;
+  padding: 70px;
+}
+
+#modalFourOverview .overview-container .title{
+  max-width: 500px;
+  margin: auto;
+}
+
+#modalFourOverview .overview-container .btn{
+  width: 500px;
+  color: white;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+
+#modalFourOverview .overview-container .para{
+  max-width: 500px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* CSS For Itinerary: */
+
+#modalFourItinerary .left-content{
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url("../img/bg-overview.svg");
+  position: relative;
+}
+
+#modalFourItinerary .left-content .img{
+  max-width: 250px;
+  margin: 0px auto 30px auto;
+}
+#modalFourItinerary .left-content .title{
+  margin-bottom: 30px;
+  color: #2EB3C0;
+}
+#modalFourItinerary .left-content .para{
+  margin-bottom: 30px;
+}
+#modalFourItinerary .left-content .col-left-footer .footer-item{
+  text-align: center;
+}
+#modalFourItinerary .left-content .col-left-footer .footer-item .img{
+  max-width: 100px;
+  margin: auto;
+}
+#modalFourItinerary .left-content .scroll-down{
+  position: absolute;
+  width: 150px;
+  bottom: -150px;
+  right: -50px;
+
+}
+
+
+#modalFourItinerary .right-content{
+  overflow-y: auto;
+  max-height: calc(100vh - 200px);
+}
+#modalFourItinerary .right-content .card-per-day{
+  display: flex;
+}
+#modalFourItinerary .right-content .card-per-day .left-part{
+  text-align: center;
+  background: #2EB3C0;
+}
+#modalFourItinerary .right-content .card-per-day .left-part .day{
+  color: white;
+}
+#modalFourItinerary .right-content .card-per-day .left-part .number{
+  color: white;
+}
+
+
+/* CSS For Hightlight: */
+#modalFourHightlight .hightlight-content{
+
+}
+#modalFourHightlight .hightlight-content .hightlight-section{
+  background-image: url("../img/bg-overview.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#modalFourHightlight .hightlight-content .hightlight-section .hightlight-card-header{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  position: relative;
+}
+#modalFourHightlight .hightlight-content .hightlight-section .hightlight-card-header .card-band{
+  background: #2EB3C0;
+  position: absolute;
+  height: 100%;
+  width: 90px;
+  left: 7%;
+  top: 0px;
+}
+#modalFourHightlight .hightlight-content .hightlight-section .hightlight-card-header .img{
+  max-width: 140px;
+}
+#modalFourHightlight .hightlight-content .hightlight-section .hightlight-card-header .title{
+  align-self: center;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+#modalFourHightlight .hightlight-content .hightlight-section .hightlight-card-body{
+  padding: 0px 25px;
+}
+#modalFourHightlight .hightlight-content .hightlight-section .hightlight-card-body .left-col{
+  padding: 30px 0px;
+  text-align: center;
+  display: flex;
+}
+#modalFourHightlight .hightlight-content .hightlight-section .hightlight-card-body .right-col{
+  padding: 30px 0px;
+  text-align: center;
+  display: flex;
+}
+#modalFourHightlight .hightlight-content .hightlight-section .hightlight-card-body .para{
+  margin-bottom: 20px;
+}
+#modalFourHightlight .hightlight-content .hightlight-section .hightlight-card-body .para:last-child{
+  margin-bottom: 0px;
+}
+#modalFourHightlight .hightlight-content .hightlight-section .hightlight-card-body .img{
   max-width: 90%;
   margin: auto;
 }

@@ -68,7 +68,9 @@ $('#four-img').click(() => {
     }
 })
 
-$('#overview').click(() => {
+// # Overview One
+$('#overviewOne').click(() => {
+
     $('#modalOneOverview').removeClass('display-none')
     if (!$('#modalOneItinerary').hasClass('display-none')) {
         $('#modalOneItinerary').addClass('display-none')
@@ -76,8 +78,47 @@ $('#overview').click(() => {
     if (!$('#modalOneHightlight').hasClass('display-none')) {
         $('#modalOneHightlight').addClass('display-none')
     }
-})
-$('#itinerary').click(() => {
+  })
+
+  // # Overview Two
+  $('#overviewTwo').click(() => {
+
+    $('#modalTwoOverview').removeClass('display-none')
+    if (!$('#modalTwoItinerary').hasClass('display-none')) {
+        $('#modalTwoItinerary').addClass('display-none')
+    }
+    if (!$('#modalTwoHightlight').hasClass('display-none')) {
+        $('#modalTwoHightlight').addClass('display-none')
+    }
+  })
+
+  // # Overview Tree
+  $('#overviewTree').click(() => {
+
+    $('#modalTreeOverview').removeClass('display-none')
+    if (!$('#modalTreeItinerary').hasClass('display-none')) {
+        $('#modalTreeItinerary').addClass('display-none')
+    }
+    if (!$('#modalTreeHightlight').hasClass('display-none')) {
+        $('#modalTreeHightlight').addClass('display-none')
+    }
+  })
+
+  // # Overview Four
+  $('#overviewFour').click(() => {
+
+    $('#modalFourOverview').removeClass('display-none')
+    if (!$('#modalFourItinerary').hasClass('display-none')) {
+        $('#modalFourItinerary').addClass('display-none')
+    }
+    if (!$('#modalFourHightlight').hasClass('display-none')) {
+        $('#modalFourHightlight').addClass('display-none')
+    }
+  })
+
+  // # Itinerary One
+$('#itineraryOne').click(() => {
+
     $('#modalOneItinerary').removeClass('display-none')
     if (!$('#modalOneOverview').hasClass('display-none')) {
         $('#modalOneOverview').addClass('display-none')
@@ -85,8 +126,48 @@ $('#itinerary').click(() => {
     if (!$('#modalOneHightlight').hasClass('display-none')) {
         $('#modalOneHightlight').addClass('display-none')
     }
-})
-$('#hightlight').click(() => {
+  })
+
+  // # Itinerary Two
+  $('#itineraryTwo').click(() => {
+
+    $('#modalTwoItinerary').removeClass('display-none')
+    if (!$('#modalTwoOverview').hasClass('display-none')) {
+        $('#modalTwoOverview').addClass('display-none')
+    }
+    if (!$('#modalTwoHightlight').hasClass('display-none')) {
+        $('#modalTwoHightlight').addClass('display-none')
+    }
+  })
+
+  // # Itinerary Tree
+  $('#itineraryTree').click(() => {
+
+    $('#modalTreeItinerary').removeClass('display-none')
+    if (!$('#modalTreeOverview').hasClass('display-none')) {
+        $('#modalTreeOverview').addClass('display-none')
+    }
+    if (!$('#modalTreeHightlight').hasClass('display-none')) {
+        $('#modalTreeHightlight').addClass('display-none')
+    }
+  })
+
+  // # Itinerary Four
+  $('#itineraryFour').click(() => {
+
+    $('#modalFourItinerary').removeClass('display-none')
+    if (!$('#modalFourOverview').hasClass('display-none')) {
+        $('#modalFourOverview').addClass('display-none')
+    }
+    if (!$('#modalFourHightlight').hasClass('display-none')) {
+        $('#modalFourHightlight').addClass('display-none')
+    }
+  })
+
+
+// # Hightlight One
+$('#hightlightOne').click(() => {
+
     $('#modalOneHightlight').removeClass('display-none')
     if (!$('#modalOneOverview').hasClass('display-none')) {
         $('#modalOneOverview').addClass('display-none')
@@ -94,4 +175,40 @@ $('#hightlight').click(() => {
     if (!$('#modalOneItinerary').hasClass('display-none')) {
         $('#modalOneItinerary').addClass('display-none')
     }
-})
+  })
+
+  // # Hightlight Two
+  $('#hightlightTwo').click(() => {
+
+    $('#modalTwoHightlight').removeClass('display-none')
+    if (!$('#modalTwoOverview').hasClass('display-none')) {
+        $('#modalTwoOverview').addClass('display-none')
+    }
+    if (!$('#modalTwoItinerary').hasClass('display-none')) {
+        $('#modalTwoItinerary').addClass('display-none')
+    }
+  })
+
+  // # Hightlight Tree
+  $('#hightlightTree').click(() => {
+
+    $('#modalTreeHightlight').removeClass('display-none')
+    if (!$('#modalTreeOverview').hasClass('display-none')) {
+        $('#modalTreeOverview').addClass('display-none')
+    }
+    if (!$('#modalTreeItinerary').hasClass('display-none')) {
+        $('#modalTreeItinerary').addClass('display-none')
+    }
+  })
+
+  // # Hightlight Four
+  $('#hightlightFour').click(() => {
+
+    $('#modalFourHightlight').removeClass('display-none')
+    if (!$('#modalFourOverview').hasClass('display-none')) {
+        $('#modalFourOverview').addClass('display-none')
+    }
+    if (!$('#modalFourItinerary').hasClass('display-none')) {
+        $('#modalFourItinerary').addClass('display-none')
+    }
+  })

@@ -415,17 +415,17 @@
                         style="width:100%;height:100%;position:absolute;left:0;background-image: url('img/one.png');">
                     </div>
                 </div>
-                <div id="two" class="col-6 bawsala-card">
+                <div id="two" class="col-6 bawsala-card"  data-bs-toggle="modal" data-bs-target="#modalTwo">
                     <div id="two-img"
                         style="width:100%;height:100%;position:absolute;right:0;background-image: url('img/two.png');">
                     </div>
                 </div>
-                <div id="tree" class="col-6 bawsala-card">
+                <div id="tree" class="col-6 bawsala-card"  data-bs-toggle="modal" data-bs-target="#modalTree">
                     <div id="tree-img"
                         style="width:100%;height:100%;position:absolute;left:0;background-image: url('img/tree.png');">
                     </div>
                 </div>
-                <div id="four" class="col-6 bawsala-card">
+                <div id="four" class="col-6 bawsala-card"  data-bs-toggle="modal" data-bs-target="#modalFour">
                     <div id="four-img"
                         style="width:100%;height:100%;position:absolute;right:0;background-image: url('img/four.png');">
                     </div>
@@ -434,14 +434,14 @@
         </div>
     </section>
 
-    <!-- Modal -->
+    <!-- Modal One -->
     <div class="modal fade" id="modalOne" tabindex="-1" aria-labelledby="modalOneLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
                 <div class="modal-header modalOne-header">
                     <div class="d-flex justify-content-between align-self-start w-100" >
                         <h2 class="text-white inline-flex m-0 py-4">
-                            <span class="align-self-center text-uppercase">Jewish Heritage Tour</span>
+                            <span class="align-self-center text-uppercase">Jewish Heritage Tour Modal 1</span>
                             <svg class="align-self-center ml-2" xmlns="http://www.w3.org/2000/svg" width="22.493" height="14.527" viewBox="0 0 22.493 14.527">
                                 <path id="Icon_awesome-angle-down" data-name="Icon awesome-angle-down" d="M10.055,24.771.492,15.209a1.681,1.681,0,0,1,0-2.384l1.589-1.589a1.681,1.681,0,0,1,2.384,0l6.778,6.778,6.778-6.778a1.681,1.681,0,0,1,2.384,0l1.589,1.589a1.681,1.681,0,0,1,0,2.384l-9.562,9.562a1.672,1.672,0,0,1-2.377,0Z" transform="translate(0.004 -10.74)" fill="#fff"/>
                             </svg>
@@ -449,13 +449,13 @@
                         <nav class="navbar navbar-expand-lg">
                             <div class="collapse navbar-collapse">
                             <ul class="navbar-nav">
-                                <li id="overview" class="nav-item cursor-pointer">
+                                <li id="overviewOne" class="nav-item cursor-pointer">
                                     <a class="nav-link">OVERVIEW</a>
                                 </li>
-                                <li id="itinerary" class="nav-item cursor-pointer">
+                                <li id="itineraryOne" class="nav-item cursor-pointer">
                                     <a class="nav-link">ITINERARY</a>
                                 </li>
-                                <li id="hightlight" class="nav-item cursor-pointer">
+                                <li id="hightlightOne" class="nav-item cursor-pointer">
                                     <a class="nav-link">HIGHTLIGHT</a>
                                 </li>
                             </ul>
@@ -579,6 +579,939 @@
                         </div>
                     </div>
                     <div id="modalOneHightlight" class="display-none">
+
+                        <div class="hightlight-content">
+
+                            <!-- Marrakech -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">Marrakech</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">Marrakech, Jewel of the South, The Red City - just a few nicknames this city has acquired over the years, a hub of ancient world trade where different cultures merge, creating a well-preserved unique identity.</p>
+
+                                            <p class="para">Marrakech is the heartbeat of Morocco, where palaces and monuments of unrivaled refinement sit calmly alongside the snake charmers and Gnaoua drums pulsing from Djemâa el Fna Square - the most exuberant marketplace in the world.</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/jamaa_elfana.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                            <!-- Essaouira -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">Essaouira</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row flex-row-reverse">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">Essaouira, ex Portuguese Mogador stronghold. The 60’s music legends Jimmy Hendrix and the Rolling Stones were drawn to Essaouira’s idyllic charm, which continues today to lure musicians and artists alike to the sparkling whitewashed fishing village trimmed with the brilliant azure of its skies…</p>
+
+                                            <p class="para">In the 18th century, the Alaouite Sultan Mohamed Ben Abdallah charged some prominent Jewish families to promote international trade from the port of Essaouira. </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/essaouira.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                            <!-- The High Atlas Mountains -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">The High Atlas Mountains</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">t the gate of desert a parade of stunning landscapes though the atlas mountains filled with life and it’s beauty
+                                                Please your eyes with a refreshing scenery a layer of simplicity coexistence , an escape to be present to connect , reflect and medita</p>
+
+                                            <p class="para">A reflection of purity and uniqueness  tasted though local dishes mostly generated from the abundance and generosity of the land</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/mountain.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                            <!-- Tinghir -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">Tinghir</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row flex-row-reverse">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">The city of Tinghir, nestled in a majestic valley, plunged back into its past, when Jews and Muslims lived together, in a Morocco that welcomed the largest Jewish community in North Africa.</p>
+
+                                            <p class="para">Among the cities that bear witness to this history is Tinghir, a city of tens of thousands of inhabitants at the foot of the High Atlas and in the heart of Berber Morocco. You will visit the Jewish quarter, the area where Jews used to live in co-existence of the local Berbers, and the Jewish Cemetery. </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/tinghir.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                            <!-- Casablanca -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">Casablanca</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">Casablanca is Morocco's largest city as well as its chief port. It's also the biggest city in the Maghreb region. Casablanca Is considered the economic and business center of Morocco. Modern and full of life, the White City incarnates the very essence of Morocco's modernity and dynamism.</p>
+
+                                            <p class="para">As a major city, Casablanca has now become a true platform for innovation and exchange. You can't help but fall under the charms of its contemporary architecture and the breathtaking view of the great Hassan II mosque. Casablanca is pretty famous for its night life, though it is not as booming – it’s mixed reviews. </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/casablanca.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Two -->
+    <div class="modal fade" id="modalTwo" tabindex="-1" aria-labelledby="modalTwoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header modalOne-header">
+                    <div class="d-flex justify-content-between align-self-start w-100" >
+                        <h2 class="text-white inline-flex m-0 py-4">
+                            <span class="align-self-center text-uppercase">Jewish Heritage Tour Modal 2</span>
+                            <svg class="align-self-center ml-2" xmlns="http://www.w3.org/2000/svg" width="22.493" height="14.527" viewBox="0 0 22.493 14.527">
+                                <path id="Icon_awesome-angle-down" data-name="Icon awesome-angle-down" d="M10.055,24.771.492,15.209a1.681,1.681,0,0,1,0-2.384l1.589-1.589a1.681,1.681,0,0,1,2.384,0l6.778,6.778,6.778-6.778a1.681,1.681,0,0,1,2.384,0l1.589,1.589a1.681,1.681,0,0,1,0,2.384l-9.562,9.562a1.672,1.672,0,0,1-2.377,0Z" transform="translate(0.004 -10.74)" fill="#fff"/>
+                            </svg>
+                        </h2>
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="collapse navbar-collapse">
+                            <ul class="navbar-nav">
+                                <li id="overviewTwo" class="nav-item cursor-pointer">
+                                    <a class="nav-link">OVERVIEW</a>
+                                </li>
+                                <li id="itineraryTwo" class="nav-item cursor-pointer">
+                                    <a class="nav-link">ITINERARY</a>
+                                </li>
+                                <li id="hightlightTwo" class="nav-item cursor-pointer">
+                                    <a class="nav-link">HIGHTLIGHT</a>
+                                </li>
+                            </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div id="modalTwoOverview" class="position-relative">
+                        <img class="bg-img" src="./img/bg-overview.svg" />
+
+                        <div class="overview-container">
+                            <h1 class="title">MARRAKECH - ESSAOUIRA - SKOURA - CASABLANCA</h1>
+
+                            <button class="btn btn-info btn-lg">7 Day Trip</button>
+
+                            <p class="para" >The Moroccan Jewish Community has always been, and still is, one of the largest in the Arab World.</p>
+                            <p class="para" >Its heritage and history are little known abroad although every part of the Kingdom records an important Jewish legend.</p>
+                            <p class="para" >The Jewish people of Morocco have left, most for Israel, France, or Canada and the U.S. The old country, Morocco, however, remembers them. In every city you can find a mellah, an old Jewish quarter or ghetto.</p>
+                            <p class="para" >Moroccan antique shops are still stocked with Jewish handcrafts and artifacts, even menorahs and mezuzahs. So much of the "traditional" Moroccan culture, the artwork and the music, has its origins in the Moroccan Jewish community.</p>
+
+                        </div>
+
+                    </div>
+                    <div id="modalTwoItinerary" class="display-none">
+                        <div class="row">
+
+                            <div class="col-6">
+                                <div class="left-content">
+                                    <img class="img" src="./img/direction.png" />
+                                    <h1 class="title">Lorem ipsum dolor sit amet consetetur</h1>
+                                    <p class="para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                                    <div class="col-left-footer d-flex justify-content-around">
+                                        <div class="footer-item">
+                                            <svg class="img mb-2" xmlns="http://www.w3.org/2000/svg" width="85.653" height="80.31" viewBox="0 0 85.653 80.31">
+                                                <path id="camel" d="M0,42.865A18.351,18.351,0,0,0,.419,47.59a9.143,9.143,0,0,0,2.258,3.3q1,1,2.008-1.925a10.608,10.608,0,0,0,.669-3.429V34.835q0-1.589,1.171-.25A8.462,8.462,0,0,1,8.03,37.511,53.518,53.518,0,0,1,9.2,42.991a15.436,15.436,0,0,1,.335,5.227q-.083.25-.335,1.38t-.376,1.715q-.124.585-.25,1.506a5.635,5.635,0,0,0-.043,1.506,1.572,1.572,0,0,0,.419.921,1.844,1.844,0,0,1,.459.795.609.609,0,0,1-.083.459,6.571,6.571,0,0,1-.545.585,4.236,4.236,0,0,0-.669.838,1.253,1.253,0,0,0-.335.585,1.326,1.326,0,0,0,0,.669q.086.333.167.585a3.573,3.573,0,0,0,.293.628q.212.376.335.628a3.941,3.941,0,0,0,.459.669,4,4,0,0,1,.419.585,5.79,5.79,0,0,1,.711,2.132q.293,1.547.545,3.388t.335,2.258a6.361,6.361,0,0,1-.335,3.053,8.451,8.451,0,0,1-1.34,2.886.909.909,0,0,0,0,.921,5,5,0,0,0,.838,1.13,15.143,15.143,0,0,0,1.171,1.13q.583.5,1.044.838l.459.335h4.266a8.988,8.988,0,0,0-.5-4.349q-.083-.167-2.341-4.266-1.254-2.175-1.589-7.695a4.861,4.861,0,0,1-.043-1.673,4.238,4.238,0,0,1,.88-1.846,3.455,3.455,0,0,0,.376-2.008,20.369,20.369,0,0,0-.459-2.341,9.737,9.737,0,0,1-.335-1.756,4.651,4.651,0,0,1,1.925-3.514q.837-.669,1.254-3.345t.5-2.926a17.758,17.758,0,0,0,.669-5.353q4.183,6.524,5.939,9.786a7.886,7.886,0,0,1,.628,3.429,5.987,5.987,0,0,1-.293,2.76,1.139,1.139,0,0,1-.167.376,2.89,2.89,0,0,0-.209.419q-.043.126-.126.419a.948.948,0,0,0-.043.459,1.926,1.926,0,0,0,.209.459,1.866,1.866,0,0,0,.5.545q1,.752,8.449,9.37a17.847,17.847,0,0,0-3.514,2.76,3.43,3.43,0,0,0-.5,2.132,4.02,4.02,0,0,0,.752,2.132,1.591,1.591,0,0,0,1.882.459q1.213-.378,1.216-1.294-.083-1.423,2.258-3.764a7.113,7.113,0,0,1,1.13,2.258q.293,1.087-.293,1.506a.43.43,0,0,0-.167.669,1.775,1.775,0,0,0,.752.669l.585.335h5.187a1.547,1.547,0,0,0,2.008-.838q.25-.5-.419-.921a10.18,10.18,0,0,0-2.008-.878A16.867,16.867,0,0,1,39.4,71.8a17.7,17.7,0,0,1-3.514-3.345q1.254-1.087,5.437-4.6t4.935-4.183a4.071,4.071,0,0,0,.878-3.136,4.568,4.568,0,0,0-1.128-3.05,2.265,2.265,0,0,1-.585-.669,6.35,6.35,0,0,1-.376-.711,3.527,3.527,0,0,1-.209-.795,5.056,5.056,0,0,1-.083-.752V49.139a5.116,5.116,0,0,0-.5-1.34l-.711-1.423-.043-.837a4.111,4.111,0,0,1,2.427,0,9.041,9.041,0,0,1,2.926.921,1.32,1.32,0,0,1,.628,1.171,7.048,7.048,0,0,1-.209,1.925,8.669,8.669,0,0,0-.25,1.34q.083,1.254,2.258,3.514A5.1,5.1,0,0,1,52.489,57a4.074,4.074,0,0,1,.043,2.677,4.784,4.784,0,0,0-.5,1.3,3.156,3.156,0,0,0-.043,1.34.952.952,0,0,0,.711.795q.838.25,2.132,3.638a16.042,16.042,0,0,1,1.3,5.058q.167,4.685,1.254,5.1a1.165,1.165,0,0,1,.878.838q.126.588-.878.838-.921.25-.921,1.673H66.833a.408.408,0,0,0,.293.083.846.846,0,0,0,.459-.167q.25-.167.25-.752,0-.752-2.008-1.547a14.641,14.641,0,0,0-3.262-.961q-.752-.167-2.3-3.179a25.469,25.469,0,0,1-2.132-5.353,23.877,23.877,0,0,1-.167-3.807q.083-1.549.459-4.183t.378-3.307q.5-9.284-.335-10.623a2.336,2.336,0,0,1-.5-1.965,1.912,1.912,0,0,1,1.423-1.632q1.087-.25,2.467,1.213t1.882,1.463a3.124,3.124,0,0,0,1.13-.209,2.292,2.292,0,0,0,.795-.459l.25-.167a6.293,6.293,0,0,0,2.091,0,2.284,2.284,0,0,0,1.213-.545,2.4,2.4,0,0,0,.711-.878l.167-.419q2.091-1.087,3.179-1.756a2.261,2.261,0,0,0,.752-.795,1.665,1.665,0,0,0,.25-.711v-.335a16.638,16.638,0,0,0,3.179-1.756A3.515,3.515,0,0,0,78.542,35.8a5.613,5.613,0,0,1,1.006-1.882,4.381,4.381,0,0,0,.711-2.51,41.593,41.593,0,0,0,.043-4.183,27.691,27.691,0,0,1,0-3.1,18.308,18.308,0,0,0-.459-5.27q-.626-2.76-2.22-2.758h8.03v-.545l-.167-1.294-.419-1.632-.795-1.3-1.3-.585h-8.03q-.419-.585-1-1.423a22.9,22.9,0,0,0-2.008-2.341,4.414,4.414,0,0,0-2.341-1.589,26.762,26.762,0,0,0-4.1-.043,9.249,9.249,0,0,0-3.931.795,2.085,2.085,0,0,0-1,1.34,4.446,4.446,0,0,0-.167,1.673l.167.752a5.573,5.573,0,0,0-2.091,2.76,6.517,6.517,0,0,0-.126,2.091,15.883,15.883,0,0,0,.669,2.175,20.256,20.256,0,0,1,.711,2.258q.25,1.087,1.34,4.309a18.975,18.975,0,0,1,1.087,3.973q.083.669-.752,1.13a5.982,5.982,0,0,1-1.589.628l-.837.083a16.738,16.738,0,0,0-.167-5.52A4.883,4.883,0,0,0,57.59,21.87q-1.047-1.173-2.467-2.551T53.2,17.354q-1.756-2.008-7.863-5.6-.585-.335-1-.628a3.215,3.215,0,0,1-.628-.545,7.281,7.281,0,0,1-.5-.711q-.293-.459-.419-.669t-.457-.964q-.331-.754-.5-1.171Q40.317,3.719,28.356.457,22-1.3,16.479,4.221q-1.171,1.171-2.008,4.768t-1.839,4.685A23.017,23.017,0,0,0,9.5,18.315q-1.713,3.136-2.719,5.479a12.7,12.7,0,0,1-3.012,4.016A20.086,20.086,0,0,0,.838,31.156Q0,32.579,0,42.867Zm32.872,2.677a5.493,5.493,0,0,1,.628,2.3,4.12,4.12,0,0,0,.628,2.132,2.586,2.586,0,0,1,.419.545,3.361,3.361,0,0,1,.293.711q.124.416.209.669a4.986,4.986,0,0,1,.167.795,4.987,4.987,0,0,0,.167.795q.167,1,2.049,2.384A17.467,17.467,0,0,0,40.9,57.921a1.41,1.41,0,0,1,.545.25.916.916,0,0,1,.293.376q.083.209.126.335a.533.533,0,0,1-.083.376,3.975,3.975,0,0,1-.209.376q-.083.126-.293.459a3.159,3.159,0,0,1-.293.419Q39.9,62.184,34.045,66.2q-.921-1.423-2.132-3.721t-1.968-3.888L29.194,57q.585-4.685.752-6.105,0-.5.083-3.136t.167-4.14a9.132,9.132,0,0,1,2.677,1.925Z" transform="translate(0 -0.033)" fill="#19164d"/>
+                                            </svg>
+                                            <p class="para">Lorem ipsum</p>
+                                        </div>
+                                        <div class="footer-item">
+                                            <svg class="img mb-2" xmlns="http://www.w3.org/2000/svg" width="80.31" height="80.31" viewBox="0 0 80.31 80.31">
+                                                <path id="peace" d="M40.155,80.31a40.03,40.03,0,0,1-34.783-20A39.423,39.423,0,0,1,0,40.155,40.03,40.03,0,0,1,20,5.372,39.46,39.46,0,0,1,40.155,0,40.03,40.03,0,0,1,74.938,20,39.481,39.481,0,0,1,80.31,40.155a40.03,40.03,0,0,1-20,34.783A39.444,39.444,0,0,1,40.155,80.31Zm5.019-10.431a29.731,29.731,0,0,0,13.8-6.275l-13.8-13.8Zm-10.039,0V49.8l-13.8,13.8a29.718,29.718,0,0,0,13.8,6.275Zm-25.1-29.724a29.559,29.559,0,0,0,5.49,17.334L35.136,37.882V10.509a29.389,29.389,0,0,0-17.92,10.157A28.981,28.981,0,0,0,10.039,40.155ZM45.174,10.509V37.882L64.781,57.488a29.559,29.559,0,0,0,5.49-17.334,28.981,28.981,0,0,0-7.177-19.489,29.389,29.389,0,0,0-17.92-10.157Z" fill="#19164d"/>
+                                            </svg>
+                                            <p class="para">Lorem ipsum</p>
+                                        </div>
+                                        <div class="footer-item">
+                                            <svg class="img mb-2" xmlns="http://www.w3.org/2000/svg" width="80.313" height="80.31" viewBox="0 0 80.313 80.31">
+                                                <g id="fast-food" transform="translate(-1.125 -1.125)">
+                                                  <path id="Path_286" data-name="Path 286" d="M25.875,9h.014" transform="translate(34.144 10.864)" fill="#19164d"/>
+                                                  <path id="Path_287" data-name="Path 287" d="M60.057,14.51H44.82l1.492-5.966,6.41-2.184a2.734,2.734,0,0,0,1.782-3.3,2.677,2.677,0,0,0-3.436-1.794L43.2,3.945a2.677,2.677,0,0,0-1.732,1.885L39.3,14.51H17.377a2.729,2.729,0,0,0-2.748,2.548A2.677,2.677,0,0,0,17.3,19.864h.459l.167,1.449a1.39,1.39,0,0,0,1.383,1.228,26.917,26.917,0,0,1,16.752,5.273,20.4,20.4,0,0,1,5.835,7.12,20.647,20.647,0,0,1,1.694,4.938,1.311,1.311,0,0,0,.55.816,12.048,12.048,0,0,1,4.414,14.46,1.325,1.325,0,0,0-.026.926,16.062,16.062,0,0,1,.9,5.285,15.5,15.5,0,0,1-3.581,10.03,13.4,13.4,0,0,1-4.816,3.626,1.34,1.34,0,0,0-.7.731,18.1,18.1,0,0,1-2.905,5,.419.419,0,0,0,.319.688H45.97a8.067,8.067,0,0,0,8-7.386L59.7,19.864h.435a2.677,2.677,0,0,0,2.677-2.805A2.733,2.733,0,0,0,60.057,14.51Z" transform="translate(18.625 0)" fill="#19164d"/>
+                                                  <path id="Path_288" data-name="Path 288" d="M16.632,36.468a3.993,3.993,0,0,1,2.844,1.171l2.6,2.6a.669.669,0,0,0,.947,0l2.591-2.6a3.993,3.993,0,0,1,2.844-1.171h32.89A1.34,1.34,0,0,0,62.7,35.142v-.012a6.7,6.7,0,0,0-5.354-6.558A15.238,15.238,0,0,0,51.4,16.525a21.614,21.614,0,0,0-13.466-4.15H25.886c-11.415,0-19.146,6.487-19.408,16.2a6.7,6.7,0,0,0-5.354,6.56,1.34,1.34,0,0,0,1.34,1.34Z" transform="translate(0 15.52)" fill="#19164d"/>
+                                                  <path id="Path_289" data-name="Path 289" d="M29.558,24.75a1.34,1.34,0,0,0-.947.393l-3.7,3.7a3.346,3.346,0,0,1-4.731,0l-3.7-3.7a1.34,1.34,0,0,0-.947-.393H3.911a2.665,2.665,0,0,0-2.637,2.2,10.912,10.912,0,0,0-.15,1.813c0,5.118,3.536,9.287,7.907,9.371a13.709,13.709,0,0,0,2.872,6.6,11.4,11.4,0,0,0,8.964,4.1H42.953a11.392,11.392,0,0,0,8.964-4.107,13.742,13.742,0,0,0,2.872-6.6c4.371-.079,7.907-4.247,7.907-9.371a10.913,10.913,0,0,0-.15-1.811,2.665,2.665,0,0,0-2.637-2.2Z" transform="translate(0 32.592)" fill="#19164d"/>
+                                                </g>
+                                            </svg>
+                                            <p class="para">Lorem ipsum</p>
+                                        </div>
+                                    </div>
+                                    <svg class="scroll-down" xmlns="http://www.w3.org/2000/svg" width="433.611" height="331.104" viewBox="0 0 433.611 331.104">
+                                        <g id="Group_54629" data-name="Group 54629" transform="translate(-594 -351.896)">
+                                          <text id="Scroll_down_for_more" data-name="Scroll downfor more" transform="translate(719 545)" fill="#19164d" font-size="42" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-124.614" y="0">Scroll down</tspan><tspan x="-91.644" y="52">for more</tspan></text>
+                                          <path id="Path_290" data-name="Path 290" d="M511.528,346.1c-18.551,13.721-40.291,19.44-62.713,22.294-27.111,3.455-53.267-1.375-78.826-11.123-25.267-9.633-42.151-26.806-51.663-51.879q-22.27-58.7-6.053-119.248c1.772-6.582,3.3-13.229,4.882-19.86.1-.417-.348-.968-1.04-2.713-12.143,8.56-24.1,16.989-36.048,25.418l-2.7-2.175c.371-2.641-.253-6.349,1.263-7.756,19.647-18.242,39.411-36.373,59.6-54.015,5.45-4.761,10.371-2.953,13.885,3.885,1.9,3.7,2.48,8.081,4.344,11.808,3.494,6.982,7.569,13.669,11.247,20.562,3.357,6.286,6.5,12.684,10.161,19.85-10.949.217-13.58-1.8-33.115-24.132-1.67,3.524-3.373,6.391-4.443,9.482-12.238,35.238-19.053,70.952-11.254,108.4,10.2,48.963,24.555,66.391,80.244,80.562,31.284,7.96,61.562,1.834,91.268-8.613,3.3-1.158,6.506-2.569,9.754-3.862Z" transform="translate(1329.004 533.217) rotate(150)" fill="#19164d"/>
+                                        </g>
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="right-content">
+
+                                    <div class="card-per-day shadow-sm mb-4 bg-white">
+
+                                        <div class="left-part p-3">
+                                            <h2 class="day text-uppercase">Day</h2>
+                                            <h2 class="number text-uppercase">1</h2>
+                                        </div>
+                                        <div class="right-part p-4">
+                                            <h2 class="title text-uppercase">Arrival to Marrakech</h2>
+                                            <p class="para">Arrival to Marrakech airport and transfer to your hotel. Check in and unpack atHivernage hotel Marrakech.Dinner at your hotel. </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-per-day shadow-sm mb-4 bg-white">
+
+                                        <div class="left-part p-3">
+                                            <h2 class="day text-uppercase">Day</h2>
+                                            <h2 class="number text-uppercase">2</h2>
+                                        </div>
+                                        <div class="right-part p-4">
+                                            <h2 class="title text-uppercase">Half day sightseeing</h2>
+                                            <p class="para">Half day sightseeing of Marrakech – discover Mellah the Jewish quarter of the city visit the Synagogue of Slat Al Azama, Majorelle garden and YSL museum and Berber museum- suggested lunch at Dar Yemma– afternoon side car tour to visit the new town of Marrakech. Dinner at your hotel.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-per-day shadow-sm mb-4 bg-white">
+
+                                        <div class="left-part p-3">
+                                            <h2 class="day text-uppercase">Day</h2>
+                                            <h2 class="number text-uppercase">3</h2>
+                                        </div>
+                                        <div class="right-part p-4">
+                                            <h2 class="title text-uppercase">to High Atlas Mountains </h2>
+                                            <p class="para">Excursion day to High Atlas Mountains (about 2hours driving excluding stop)- soft trekking to reach the Berber villages and discover the local Jewish culture.Visit and discover the organic aromatic garden. Back to Marrakech. Dinner at your hotel. </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-per-day shadow-sm mb-4 bg-white">
+
+                                        <div class="left-part p-3">
+                                            <h2 class="day text-uppercase">Day</h2>
+                                            <h2 class="number text-uppercase">4</h2>
+                                        </div>
+                                        <div class="right-part p-4">
+                                            <h2 class="title text-uppercase">Morning to Skoura</h2>
+                                            <p class="para">Excursion day to High Atlas Mountains (about 2hours driving excluding stop)- soft trekking to reach the Berber villages and discover the local Jewish culture.Visit and discover the organic aromatic garden. Back to Marrakech. Dinner at your hotel. </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="modalTwoHightlight" class="display-none">
+
+                        <div class="hightlight-content">
+
+                            <!-- Marrakech -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">Marrakech</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">Marrakech, Jewel of the South, The Red City - just a few nicknames this city has acquired over the years, a hub of ancient world trade where different cultures merge, creating a well-preserved unique identity.</p>
+
+                                            <p class="para">Marrakech is the heartbeat of Morocco, where palaces and monuments of unrivaled refinement sit calmly alongside the snake charmers and Gnaoua drums pulsing from Djemâa el Fna Square - the most exuberant marketplace in the world.</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/jamaa_elfana.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                            <!-- Essaouira -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">Essaouira</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row flex-row-reverse">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">Essaouira, ex Portuguese Mogador stronghold. The 60’s music legends Jimmy Hendrix and the Rolling Stones were drawn to Essaouira’s idyllic charm, which continues today to lure musicians and artists alike to the sparkling whitewashed fishing village trimmed with the brilliant azure of its skies…</p>
+
+                                            <p class="para">In the 18th century, the Alaouite Sultan Mohamed Ben Abdallah charged some prominent Jewish families to promote international trade from the port of Essaouira. </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/essaouira.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                            <!-- The High Atlas Mountains -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">The High Atlas Mountains</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">t the gate of desert a parade of stunning landscapes though the atlas mountains filled with life and it’s beauty
+                                                Please your eyes with a refreshing scenery a layer of simplicity coexistence , an escape to be present to connect , reflect and medita</p>
+
+                                            <p class="para">A reflection of purity and uniqueness  tasted though local dishes mostly generated from the abundance and generosity of the land</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/mountain.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                            <!-- Tinghir -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">Tinghir</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row flex-row-reverse">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">The city of Tinghir, nestled in a majestic valley, plunged back into its past, when Jews and Muslims lived together, in a Morocco that welcomed the largest Jewish community in North Africa.</p>
+
+                                            <p class="para">Among the cities that bear witness to this history is Tinghir, a city of tens of thousands of inhabitants at the foot of the High Atlas and in the heart of Berber Morocco. You will visit the Jewish quarter, the area where Jews used to live in co-existence of the local Berbers, and the Jewish Cemetery. </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/tinghir.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                            <!-- Casablanca -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">Casablanca</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">Casablanca is Morocco's largest city as well as its chief port. It's also the biggest city in the Maghreb region. Casablanca Is considered the economic and business center of Morocco. Modern and full of life, the White City incarnates the very essence of Morocco's modernity and dynamism.</p>
+
+                                            <p class="para">As a major city, Casablanca has now become a true platform for innovation and exchange. You can't help but fall under the charms of its contemporary architecture and the breathtaking view of the great Hassan II mosque. Casablanca is pretty famous for its night life, though it is not as booming – it’s mixed reviews. </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/casablanca.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Three -->
+    <div class="modal fade" id="modalTree" tabindex="-1" aria-labelledby="modalTreeLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header modalOne-header">
+                    <div class="d-flex justify-content-between align-self-start w-100" >
+                        <h2 class="text-white inline-flex m-0 py-4">
+                            <span class="align-self-center text-uppercase">Jewish Heritage Tour Modal 3</span>
+                            <svg class="align-self-center ml-2" xmlns="http://www.w3.org/2000/svg" width="22.493" height="14.527" viewBox="0 0 22.493 14.527">
+                                <path id="Icon_awesome-angle-down" data-name="Icon awesome-angle-down" d="M10.055,24.771.492,15.209a1.681,1.681,0,0,1,0-2.384l1.589-1.589a1.681,1.681,0,0,1,2.384,0l6.778,6.778,6.778-6.778a1.681,1.681,0,0,1,2.384,0l1.589,1.589a1.681,1.681,0,0,1,0,2.384l-9.562,9.562a1.672,1.672,0,0,1-2.377,0Z" transform="translate(0.004 -10.74)" fill="#fff"/>
+                            </svg>
+                        </h2>
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="collapse navbar-collapse">
+                            <ul class="navbar-nav">
+                                <li id="overviewTree" class="nav-item cursor-pointer">
+                                    <a class="nav-link">OVERVIEW</a>
+                                </li>
+                                <li id="itineraryTree" class="nav-item cursor-pointer">
+                                    <a class="nav-link">ITINERARY</a>
+                                </li>
+                                <li id="hightlightTree" class="nav-item cursor-pointer">
+                                    <a class="nav-link">HIGHTLIGHT</a>
+                                </li>
+                            </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div id="modalTreeOverview" class="position-relative">
+                        <img class="bg-img" src="./img/bg-overview.svg" />
+
+                        <div class="overview-container">
+                            <h1 class="title">MARRAKECH - ESSAOUIRA - SKOURA - CASABLANCA</h1>
+
+                            <button class="btn btn-info btn-lg">7 Day Trip</button>
+
+                            <p class="para" >The Moroccan Jewish Community has always been, and still is, one of the largest in the Arab World.</p>
+                            <p class="para" >Its heritage and history are little known abroad although every part of the Kingdom records an important Jewish legend.</p>
+                            <p class="para" >The Jewish people of Morocco have left, most for Israel, France, or Canada and the U.S. The old country, Morocco, however, remembers them. In every city you can find a mellah, an old Jewish quarter or ghetto.</p>
+                            <p class="para" >Moroccan antique shops are still stocked with Jewish handcrafts and artifacts, even menorahs and mezuzahs. So much of the "traditional" Moroccan culture, the artwork and the music, has its origins in the Moroccan Jewish community.</p>
+
+                        </div>
+
+                    </div>
+                    <div id="modalTreeItinerary" class="display-none">
+                        <div class="row">
+
+                            <div class="col-6">
+                                <div class="left-content">
+                                    <img class="img" src="./img/direction.png" />
+                                    <h1 class="title">Lorem ipsum dolor sit amet consetetur</h1>
+                                    <p class="para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                                    <div class="col-left-footer d-flex justify-content-around">
+                                        <div class="footer-item">
+                                            <svg class="img mb-2" xmlns="http://www.w3.org/2000/svg" width="85.653" height="80.31" viewBox="0 0 85.653 80.31">
+                                                <path id="camel" d="M0,42.865A18.351,18.351,0,0,0,.419,47.59a9.143,9.143,0,0,0,2.258,3.3q1,1,2.008-1.925a10.608,10.608,0,0,0,.669-3.429V34.835q0-1.589,1.171-.25A8.462,8.462,0,0,1,8.03,37.511,53.518,53.518,0,0,1,9.2,42.991a15.436,15.436,0,0,1,.335,5.227q-.083.25-.335,1.38t-.376,1.715q-.124.585-.25,1.506a5.635,5.635,0,0,0-.043,1.506,1.572,1.572,0,0,0,.419.921,1.844,1.844,0,0,1,.459.795.609.609,0,0,1-.083.459,6.571,6.571,0,0,1-.545.585,4.236,4.236,0,0,0-.669.838,1.253,1.253,0,0,0-.335.585,1.326,1.326,0,0,0,0,.669q.086.333.167.585a3.573,3.573,0,0,0,.293.628q.212.376.335.628a3.941,3.941,0,0,0,.459.669,4,4,0,0,1,.419.585,5.79,5.79,0,0,1,.711,2.132q.293,1.547.545,3.388t.335,2.258a6.361,6.361,0,0,1-.335,3.053,8.451,8.451,0,0,1-1.34,2.886.909.909,0,0,0,0,.921,5,5,0,0,0,.838,1.13,15.143,15.143,0,0,0,1.171,1.13q.583.5,1.044.838l.459.335h4.266a8.988,8.988,0,0,0-.5-4.349q-.083-.167-2.341-4.266-1.254-2.175-1.589-7.695a4.861,4.861,0,0,1-.043-1.673,4.238,4.238,0,0,1,.88-1.846,3.455,3.455,0,0,0,.376-2.008,20.369,20.369,0,0,0-.459-2.341,9.737,9.737,0,0,1-.335-1.756,4.651,4.651,0,0,1,1.925-3.514q.837-.669,1.254-3.345t.5-2.926a17.758,17.758,0,0,0,.669-5.353q4.183,6.524,5.939,9.786a7.886,7.886,0,0,1,.628,3.429,5.987,5.987,0,0,1-.293,2.76,1.139,1.139,0,0,1-.167.376,2.89,2.89,0,0,0-.209.419q-.043.126-.126.419a.948.948,0,0,0-.043.459,1.926,1.926,0,0,0,.209.459,1.866,1.866,0,0,0,.5.545q1,.752,8.449,9.37a17.847,17.847,0,0,0-3.514,2.76,3.43,3.43,0,0,0-.5,2.132,4.02,4.02,0,0,0,.752,2.132,1.591,1.591,0,0,0,1.882.459q1.213-.378,1.216-1.294-.083-1.423,2.258-3.764a7.113,7.113,0,0,1,1.13,2.258q.293,1.087-.293,1.506a.43.43,0,0,0-.167.669,1.775,1.775,0,0,0,.752.669l.585.335h5.187a1.547,1.547,0,0,0,2.008-.838q.25-.5-.419-.921a10.18,10.18,0,0,0-2.008-.878A16.867,16.867,0,0,1,39.4,71.8a17.7,17.7,0,0,1-3.514-3.345q1.254-1.087,5.437-4.6t4.935-4.183a4.071,4.071,0,0,0,.878-3.136,4.568,4.568,0,0,0-1.128-3.05,2.265,2.265,0,0,1-.585-.669,6.35,6.35,0,0,1-.376-.711,3.527,3.527,0,0,1-.209-.795,5.056,5.056,0,0,1-.083-.752V49.139a5.116,5.116,0,0,0-.5-1.34l-.711-1.423-.043-.837a4.111,4.111,0,0,1,2.427,0,9.041,9.041,0,0,1,2.926.921,1.32,1.32,0,0,1,.628,1.171,7.048,7.048,0,0,1-.209,1.925,8.669,8.669,0,0,0-.25,1.34q.083,1.254,2.258,3.514A5.1,5.1,0,0,1,52.489,57a4.074,4.074,0,0,1,.043,2.677,4.784,4.784,0,0,0-.5,1.3,3.156,3.156,0,0,0-.043,1.34.952.952,0,0,0,.711.795q.838.25,2.132,3.638a16.042,16.042,0,0,1,1.3,5.058q.167,4.685,1.254,5.1a1.165,1.165,0,0,1,.878.838q.126.588-.878.838-.921.25-.921,1.673H66.833a.408.408,0,0,0,.293.083.846.846,0,0,0,.459-.167q.25-.167.25-.752,0-.752-2.008-1.547a14.641,14.641,0,0,0-3.262-.961q-.752-.167-2.3-3.179a25.469,25.469,0,0,1-2.132-5.353,23.877,23.877,0,0,1-.167-3.807q.083-1.549.459-4.183t.378-3.307q.5-9.284-.335-10.623a2.336,2.336,0,0,1-.5-1.965,1.912,1.912,0,0,1,1.423-1.632q1.087-.25,2.467,1.213t1.882,1.463a3.124,3.124,0,0,0,1.13-.209,2.292,2.292,0,0,0,.795-.459l.25-.167a6.293,6.293,0,0,0,2.091,0,2.284,2.284,0,0,0,1.213-.545,2.4,2.4,0,0,0,.711-.878l.167-.419q2.091-1.087,3.179-1.756a2.261,2.261,0,0,0,.752-.795,1.665,1.665,0,0,0,.25-.711v-.335a16.638,16.638,0,0,0,3.179-1.756A3.515,3.515,0,0,0,78.542,35.8a5.613,5.613,0,0,1,1.006-1.882,4.381,4.381,0,0,0,.711-2.51,41.593,41.593,0,0,0,.043-4.183,27.691,27.691,0,0,1,0-3.1,18.308,18.308,0,0,0-.459-5.27q-.626-2.76-2.22-2.758h8.03v-.545l-.167-1.294-.419-1.632-.795-1.3-1.3-.585h-8.03q-.419-.585-1-1.423a22.9,22.9,0,0,0-2.008-2.341,4.414,4.414,0,0,0-2.341-1.589,26.762,26.762,0,0,0-4.1-.043,9.249,9.249,0,0,0-3.931.795,2.085,2.085,0,0,0-1,1.34,4.446,4.446,0,0,0-.167,1.673l.167.752a5.573,5.573,0,0,0-2.091,2.76,6.517,6.517,0,0,0-.126,2.091,15.883,15.883,0,0,0,.669,2.175,20.256,20.256,0,0,1,.711,2.258q.25,1.087,1.34,4.309a18.975,18.975,0,0,1,1.087,3.973q.083.669-.752,1.13a5.982,5.982,0,0,1-1.589.628l-.837.083a16.738,16.738,0,0,0-.167-5.52A4.883,4.883,0,0,0,57.59,21.87q-1.047-1.173-2.467-2.551T53.2,17.354q-1.756-2.008-7.863-5.6-.585-.335-1-.628a3.215,3.215,0,0,1-.628-.545,7.281,7.281,0,0,1-.5-.711q-.293-.459-.419-.669t-.457-.964q-.331-.754-.5-1.171Q40.317,3.719,28.356.457,22-1.3,16.479,4.221q-1.171,1.171-2.008,4.768t-1.839,4.685A23.017,23.017,0,0,0,9.5,18.315q-1.713,3.136-2.719,5.479a12.7,12.7,0,0,1-3.012,4.016A20.086,20.086,0,0,0,.838,31.156Q0,32.579,0,42.867Zm32.872,2.677a5.493,5.493,0,0,1,.628,2.3,4.12,4.12,0,0,0,.628,2.132,2.586,2.586,0,0,1,.419.545,3.361,3.361,0,0,1,.293.711q.124.416.209.669a4.986,4.986,0,0,1,.167.795,4.987,4.987,0,0,0,.167.795q.167,1,2.049,2.384A17.467,17.467,0,0,0,40.9,57.921a1.41,1.41,0,0,1,.545.25.916.916,0,0,1,.293.376q.083.209.126.335a.533.533,0,0,1-.083.376,3.975,3.975,0,0,1-.209.376q-.083.126-.293.459a3.159,3.159,0,0,1-.293.419Q39.9,62.184,34.045,66.2q-.921-1.423-2.132-3.721t-1.968-3.888L29.194,57q.585-4.685.752-6.105,0-.5.083-3.136t.167-4.14a9.132,9.132,0,0,1,2.677,1.925Z" transform="translate(0 -0.033)" fill="#19164d"/>
+                                            </svg>
+                                            <p class="para">Lorem ipsum</p>
+                                        </div>
+                                        <div class="footer-item">
+                                            <svg class="img mb-2" xmlns="http://www.w3.org/2000/svg" width="80.31" height="80.31" viewBox="0 0 80.31 80.31">
+                                                <path id="peace" d="M40.155,80.31a40.03,40.03,0,0,1-34.783-20A39.423,39.423,0,0,1,0,40.155,40.03,40.03,0,0,1,20,5.372,39.46,39.46,0,0,1,40.155,0,40.03,40.03,0,0,1,74.938,20,39.481,39.481,0,0,1,80.31,40.155a40.03,40.03,0,0,1-20,34.783A39.444,39.444,0,0,1,40.155,80.31Zm5.019-10.431a29.731,29.731,0,0,0,13.8-6.275l-13.8-13.8Zm-10.039,0V49.8l-13.8,13.8a29.718,29.718,0,0,0,13.8,6.275Zm-25.1-29.724a29.559,29.559,0,0,0,5.49,17.334L35.136,37.882V10.509a29.389,29.389,0,0,0-17.92,10.157A28.981,28.981,0,0,0,10.039,40.155ZM45.174,10.509V37.882L64.781,57.488a29.559,29.559,0,0,0,5.49-17.334,28.981,28.981,0,0,0-7.177-19.489,29.389,29.389,0,0,0-17.92-10.157Z" fill="#19164d"/>
+                                            </svg>
+                                            <p class="para">Lorem ipsum</p>
+                                        </div>
+                                        <div class="footer-item">
+                                            <svg class="img mb-2" xmlns="http://www.w3.org/2000/svg" width="80.313" height="80.31" viewBox="0 0 80.313 80.31">
+                                                <g id="fast-food" transform="translate(-1.125 -1.125)">
+                                                  <path id="Path_286" data-name="Path 286" d="M25.875,9h.014" transform="translate(34.144 10.864)" fill="#19164d"/>
+                                                  <path id="Path_287" data-name="Path 287" d="M60.057,14.51H44.82l1.492-5.966,6.41-2.184a2.734,2.734,0,0,0,1.782-3.3,2.677,2.677,0,0,0-3.436-1.794L43.2,3.945a2.677,2.677,0,0,0-1.732,1.885L39.3,14.51H17.377a2.729,2.729,0,0,0-2.748,2.548A2.677,2.677,0,0,0,17.3,19.864h.459l.167,1.449a1.39,1.39,0,0,0,1.383,1.228,26.917,26.917,0,0,1,16.752,5.273,20.4,20.4,0,0,1,5.835,7.12,20.647,20.647,0,0,1,1.694,4.938,1.311,1.311,0,0,0,.55.816,12.048,12.048,0,0,1,4.414,14.46,1.325,1.325,0,0,0-.026.926,16.062,16.062,0,0,1,.9,5.285,15.5,15.5,0,0,1-3.581,10.03,13.4,13.4,0,0,1-4.816,3.626,1.34,1.34,0,0,0-.7.731,18.1,18.1,0,0,1-2.905,5,.419.419,0,0,0,.319.688H45.97a8.067,8.067,0,0,0,8-7.386L59.7,19.864h.435a2.677,2.677,0,0,0,2.677-2.805A2.733,2.733,0,0,0,60.057,14.51Z" transform="translate(18.625 0)" fill="#19164d"/>
+                                                  <path id="Path_288" data-name="Path 288" d="M16.632,36.468a3.993,3.993,0,0,1,2.844,1.171l2.6,2.6a.669.669,0,0,0,.947,0l2.591-2.6a3.993,3.993,0,0,1,2.844-1.171h32.89A1.34,1.34,0,0,0,62.7,35.142v-.012a6.7,6.7,0,0,0-5.354-6.558A15.238,15.238,0,0,0,51.4,16.525a21.614,21.614,0,0,0-13.466-4.15H25.886c-11.415,0-19.146,6.487-19.408,16.2a6.7,6.7,0,0,0-5.354,6.56,1.34,1.34,0,0,0,1.34,1.34Z" transform="translate(0 15.52)" fill="#19164d"/>
+                                                  <path id="Path_289" data-name="Path 289" d="M29.558,24.75a1.34,1.34,0,0,0-.947.393l-3.7,3.7a3.346,3.346,0,0,1-4.731,0l-3.7-3.7a1.34,1.34,0,0,0-.947-.393H3.911a2.665,2.665,0,0,0-2.637,2.2,10.912,10.912,0,0,0-.15,1.813c0,5.118,3.536,9.287,7.907,9.371a13.709,13.709,0,0,0,2.872,6.6,11.4,11.4,0,0,0,8.964,4.1H42.953a11.392,11.392,0,0,0,8.964-4.107,13.742,13.742,0,0,0,2.872-6.6c4.371-.079,7.907-4.247,7.907-9.371a10.913,10.913,0,0,0-.15-1.811,2.665,2.665,0,0,0-2.637-2.2Z" transform="translate(0 32.592)" fill="#19164d"/>
+                                                </g>
+                                            </svg>
+                                            <p class="para">Lorem ipsum</p>
+                                        </div>
+                                    </div>
+                                    <svg class="scroll-down" xmlns="http://www.w3.org/2000/svg" width="433.611" height="331.104" viewBox="0 0 433.611 331.104">
+                                        <g id="Group_54629" data-name="Group 54629" transform="translate(-594 -351.896)">
+                                          <text id="Scroll_down_for_more" data-name="Scroll downfor more" transform="translate(719 545)" fill="#19164d" font-size="42" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-124.614" y="0">Scroll down</tspan><tspan x="-91.644" y="52">for more</tspan></text>
+                                          <path id="Path_290" data-name="Path 290" d="M511.528,346.1c-18.551,13.721-40.291,19.44-62.713,22.294-27.111,3.455-53.267-1.375-78.826-11.123-25.267-9.633-42.151-26.806-51.663-51.879q-22.27-58.7-6.053-119.248c1.772-6.582,3.3-13.229,4.882-19.86.1-.417-.348-.968-1.04-2.713-12.143,8.56-24.1,16.989-36.048,25.418l-2.7-2.175c.371-2.641-.253-6.349,1.263-7.756,19.647-18.242,39.411-36.373,59.6-54.015,5.45-4.761,10.371-2.953,13.885,3.885,1.9,3.7,2.48,8.081,4.344,11.808,3.494,6.982,7.569,13.669,11.247,20.562,3.357,6.286,6.5,12.684,10.161,19.85-10.949.217-13.58-1.8-33.115-24.132-1.67,3.524-3.373,6.391-4.443,9.482-12.238,35.238-19.053,70.952-11.254,108.4,10.2,48.963,24.555,66.391,80.244,80.562,31.284,7.96,61.562,1.834,91.268-8.613,3.3-1.158,6.506-2.569,9.754-3.862Z" transform="translate(1329.004 533.217) rotate(150)" fill="#19164d"/>
+                                        </g>
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="right-content">
+
+                                    <div class="card-per-day shadow-sm mb-4 bg-white">
+
+                                        <div class="left-part p-3">
+                                            <h2 class="day text-uppercase">Day</h2>
+                                            <h2 class="number text-uppercase">1</h2>
+                                        </div>
+                                        <div class="right-part p-4">
+                                            <h2 class="title text-uppercase">Arrival to Marrakech</h2>
+                                            <p class="para">Arrival to Marrakech airport and transfer to your hotel. Check in and unpack atHivernage hotel Marrakech.Dinner at your hotel. </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-per-day shadow-sm mb-4 bg-white">
+
+                                        <div class="left-part p-3">
+                                            <h2 class="day text-uppercase">Day</h2>
+                                            <h2 class="number text-uppercase">2</h2>
+                                        </div>
+                                        <div class="right-part p-4">
+                                            <h2 class="title text-uppercase">Half day sightseeing</h2>
+                                            <p class="para">Half day sightseeing of Marrakech – discover Mellah the Jewish quarter of the city visit the Synagogue of Slat Al Azama, Majorelle garden and YSL museum and Berber museum- suggested lunch at Dar Yemma– afternoon side car tour to visit the new town of Marrakech. Dinner at your hotel.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-per-day shadow-sm mb-4 bg-white">
+
+                                        <div class="left-part p-3">
+                                            <h2 class="day text-uppercase">Day</h2>
+                                            <h2 class="number text-uppercase">3</h2>
+                                        </div>
+                                        <div class="right-part p-4">
+                                            <h2 class="title text-uppercase">to High Atlas Mountains </h2>
+                                            <p class="para">Excursion day to High Atlas Mountains (about 2hours driving excluding stop)- soft trekking to reach the Berber villages and discover the local Jewish culture.Visit and discover the organic aromatic garden. Back to Marrakech. Dinner at your hotel. </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-per-day shadow-sm mb-4 bg-white">
+
+                                        <div class="left-part p-3">
+                                            <h2 class="day text-uppercase">Day</h2>
+                                            <h2 class="number text-uppercase">4</h2>
+                                        </div>
+                                        <div class="right-part p-4">
+                                            <h2 class="title text-uppercase">Morning to Skoura</h2>
+                                            <p class="para">Excursion day to High Atlas Mountains (about 2hours driving excluding stop)- soft trekking to reach the Berber villages and discover the local Jewish culture.Visit and discover the organic aromatic garden. Back to Marrakech. Dinner at your hotel. </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="modalTreeHightlight" class="display-none">
+
+                        <div class="hightlight-content">
+
+                            <!-- Marrakech -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">Marrakech</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">Marrakech, Jewel of the South, The Red City - just a few nicknames this city has acquired over the years, a hub of ancient world trade where different cultures merge, creating a well-preserved unique identity.</p>
+
+                                            <p class="para">Marrakech is the heartbeat of Morocco, where palaces and monuments of unrivaled refinement sit calmly alongside the snake charmers and Gnaoua drums pulsing from Djemâa el Fna Square - the most exuberant marketplace in the world.</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/jamaa_elfana.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                            <!-- Essaouira -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">Essaouira</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row flex-row-reverse">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">Essaouira, ex Portuguese Mogador stronghold. The 60’s music legends Jimmy Hendrix and the Rolling Stones were drawn to Essaouira’s idyllic charm, which continues today to lure musicians and artists alike to the sparkling whitewashed fishing village trimmed with the brilliant azure of its skies…</p>
+
+                                            <p class="para">In the 18th century, the Alaouite Sultan Mohamed Ben Abdallah charged some prominent Jewish families to promote international trade from the port of Essaouira. </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/essaouira.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                            <!-- The High Atlas Mountains -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">The High Atlas Mountains</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">t the gate of desert a parade of stunning landscapes though the atlas mountains filled with life and it’s beauty
+                                                Please your eyes with a refreshing scenery a layer of simplicity coexistence , an escape to be present to connect , reflect and medita</p>
+
+                                            <p class="para">A reflection of purity and uniqueness  tasted though local dishes mostly generated from the abundance and generosity of the land</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/mountain.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                            <!-- Tinghir -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">Tinghir</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row flex-row-reverse">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">The city of Tinghir, nestled in a majestic valley, plunged back into its past, when Jews and Muslims lived together, in a Morocco that welcomed the largest Jewish community in North Africa.</p>
+
+                                            <p class="para">Among the cities that bear witness to this history is Tinghir, a city of tens of thousands of inhabitants at the foot of the High Atlas and in the heart of Berber Morocco. You will visit the Jewish quarter, the area where Jews used to live in co-existence of the local Berbers, and the Jewish Cemetery. </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/tinghir.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                            <!-- Casablanca -->
+                            <section class="hightlight-section">
+
+                                <div class="hightlight-card-header shadow-sm mb-5 bg-white">
+
+                                    <div class="card-band"></div>
+                                    <img class="img" src="./img/direction.png" />
+                                    <h2 class="title">Casablanca</h2>
+
+                                </div>
+
+                                <div class="hightlight-card-body row">
+
+                                    <div class="left-col col-6">
+
+                                        <div class="m-auto">
+                                            <p class="para">Casablanca is Morocco's largest city as well as its chief port. It's also the biggest city in the Maghreb region. Casablanca Is considered the economic and business center of Morocco. Modern and full of life, the White City incarnates the very essence of Morocco's modernity and dynamism.</p>
+
+                                            <p class="para">As a major city, Casablanca has now become a true platform for innovation and exchange. You can't help but fall under the charms of its contemporary architecture and the breathtaking view of the great Hassan II mosque. Casablanca is pretty famous for its night life, though it is not as booming – it’s mixed reviews. </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="right-col col-6">
+                                        <img class="img" src="./img/casablanca.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </section>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Four -->
+    <div class="modal fade" id="modalFour" tabindex="-1" aria-labelledby="modalFourLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header modalOne-header">
+                    <div class="d-flex justify-content-between align-self-start w-100" >
+                        <h2 class="text-white inline-flex m-0 py-4">
+                            <span class="align-self-center text-uppercase">Jewish Heritage Tour Modal 4</span>
+                            <svg class="align-self-center ml-2" xmlns="http://www.w3.org/2000/svg" width="22.493" height="14.527" viewBox="0 0 22.493 14.527">
+                                <path id="Icon_awesome-angle-down" data-name="Icon awesome-angle-down" d="M10.055,24.771.492,15.209a1.681,1.681,0,0,1,0-2.384l1.589-1.589a1.681,1.681,0,0,1,2.384,0l6.778,6.778,6.778-6.778a1.681,1.681,0,0,1,2.384,0l1.589,1.589a1.681,1.681,0,0,1,0,2.384l-9.562,9.562a1.672,1.672,0,0,1-2.377,0Z" transform="translate(0.004 -10.74)" fill="#fff"/>
+                            </svg>
+                        </h2>
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="collapse navbar-collapse">
+                            <ul class="navbar-nav">
+                                <li id="overviewFour" class="nav-item cursor-pointer">
+                                    <a class="nav-link">OVERVIEW</a>
+                                </li>
+                                <li id="itineraryFour" class="nav-item cursor-pointer">
+                                    <a class="nav-link">ITINERARY</a>
+                                </li>
+                                <li id="hightlightFour" class="nav-item cursor-pointer">
+                                    <a class="nav-link">HIGHTLIGHT</a>
+                                </li>
+                            </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div id="modalFourOverview" class="position-relative">
+                        <img class="bg-img" src="./img/bg-overview.svg" />
+
+                        <div class="overview-container">
+                            <h1 class="title">MARRAKECH - ESSAOUIRA - SKOURA - CASABLANCA</h1>
+
+                            <button class="btn btn-info btn-lg">7 Day Trip</button>
+
+                            <p class="para" >The Moroccan Jewish Community has always been, and still is, one of the largest in the Arab World.</p>
+                            <p class="para" >Its heritage and history are little known abroad although every part of the Kingdom records an important Jewish legend.</p>
+                            <p class="para" >The Jewish people of Morocco have left, most for Israel, France, or Canada and the U.S. The old country, Morocco, however, remembers them. In every city you can find a mellah, an old Jewish quarter or ghetto.</p>
+                            <p class="para" >Moroccan antique shops are still stocked with Jewish handcrafts and artifacts, even menorahs and mezuzahs. So much of the "traditional" Moroccan culture, the artwork and the music, has its origins in the Moroccan Jewish community.</p>
+
+                        </div>
+
+                    </div>
+                    <div id="modalFourItinerary" class="display-none">
+                        <div class="row">
+
+                            <div class="col-6">
+                                <div class="left-content">
+                                    <img class="img" src="./img/direction.png" />
+                                    <h1 class="title">Lorem ipsum dolor sit amet consetetur</h1>
+                                    <p class="para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                                    <div class="col-left-footer d-flex justify-content-around">
+                                        <div class="footer-item">
+                                            <svg class="img mb-2" xmlns="http://www.w3.org/2000/svg" width="85.653" height="80.31" viewBox="0 0 85.653 80.31">
+                                                <path id="camel" d="M0,42.865A18.351,18.351,0,0,0,.419,47.59a9.143,9.143,0,0,0,2.258,3.3q1,1,2.008-1.925a10.608,10.608,0,0,0,.669-3.429V34.835q0-1.589,1.171-.25A8.462,8.462,0,0,1,8.03,37.511,53.518,53.518,0,0,1,9.2,42.991a15.436,15.436,0,0,1,.335,5.227q-.083.25-.335,1.38t-.376,1.715q-.124.585-.25,1.506a5.635,5.635,0,0,0-.043,1.506,1.572,1.572,0,0,0,.419.921,1.844,1.844,0,0,1,.459.795.609.609,0,0,1-.083.459,6.571,6.571,0,0,1-.545.585,4.236,4.236,0,0,0-.669.838,1.253,1.253,0,0,0-.335.585,1.326,1.326,0,0,0,0,.669q.086.333.167.585a3.573,3.573,0,0,0,.293.628q.212.376.335.628a3.941,3.941,0,0,0,.459.669,4,4,0,0,1,.419.585,5.79,5.79,0,0,1,.711,2.132q.293,1.547.545,3.388t.335,2.258a6.361,6.361,0,0,1-.335,3.053,8.451,8.451,0,0,1-1.34,2.886.909.909,0,0,0,0,.921,5,5,0,0,0,.838,1.13,15.143,15.143,0,0,0,1.171,1.13q.583.5,1.044.838l.459.335h4.266a8.988,8.988,0,0,0-.5-4.349q-.083-.167-2.341-4.266-1.254-2.175-1.589-7.695a4.861,4.861,0,0,1-.043-1.673,4.238,4.238,0,0,1,.88-1.846,3.455,3.455,0,0,0,.376-2.008,20.369,20.369,0,0,0-.459-2.341,9.737,9.737,0,0,1-.335-1.756,4.651,4.651,0,0,1,1.925-3.514q.837-.669,1.254-3.345t.5-2.926a17.758,17.758,0,0,0,.669-5.353q4.183,6.524,5.939,9.786a7.886,7.886,0,0,1,.628,3.429,5.987,5.987,0,0,1-.293,2.76,1.139,1.139,0,0,1-.167.376,2.89,2.89,0,0,0-.209.419q-.043.126-.126.419a.948.948,0,0,0-.043.459,1.926,1.926,0,0,0,.209.459,1.866,1.866,0,0,0,.5.545q1,.752,8.449,9.37a17.847,17.847,0,0,0-3.514,2.76,3.43,3.43,0,0,0-.5,2.132,4.02,4.02,0,0,0,.752,2.132,1.591,1.591,0,0,0,1.882.459q1.213-.378,1.216-1.294-.083-1.423,2.258-3.764a7.113,7.113,0,0,1,1.13,2.258q.293,1.087-.293,1.506a.43.43,0,0,0-.167.669,1.775,1.775,0,0,0,.752.669l.585.335h5.187a1.547,1.547,0,0,0,2.008-.838q.25-.5-.419-.921a10.18,10.18,0,0,0-2.008-.878A16.867,16.867,0,0,1,39.4,71.8a17.7,17.7,0,0,1-3.514-3.345q1.254-1.087,5.437-4.6t4.935-4.183a4.071,4.071,0,0,0,.878-3.136,4.568,4.568,0,0,0-1.128-3.05,2.265,2.265,0,0,1-.585-.669,6.35,6.35,0,0,1-.376-.711,3.527,3.527,0,0,1-.209-.795,5.056,5.056,0,0,1-.083-.752V49.139a5.116,5.116,0,0,0-.5-1.34l-.711-1.423-.043-.837a4.111,4.111,0,0,1,2.427,0,9.041,9.041,0,0,1,2.926.921,1.32,1.32,0,0,1,.628,1.171,7.048,7.048,0,0,1-.209,1.925,8.669,8.669,0,0,0-.25,1.34q.083,1.254,2.258,3.514A5.1,5.1,0,0,1,52.489,57a4.074,4.074,0,0,1,.043,2.677,4.784,4.784,0,0,0-.5,1.3,3.156,3.156,0,0,0-.043,1.34.952.952,0,0,0,.711.795q.838.25,2.132,3.638a16.042,16.042,0,0,1,1.3,5.058q.167,4.685,1.254,5.1a1.165,1.165,0,0,1,.878.838q.126.588-.878.838-.921.25-.921,1.673H66.833a.408.408,0,0,0,.293.083.846.846,0,0,0,.459-.167q.25-.167.25-.752,0-.752-2.008-1.547a14.641,14.641,0,0,0-3.262-.961q-.752-.167-2.3-3.179a25.469,25.469,0,0,1-2.132-5.353,23.877,23.877,0,0,1-.167-3.807q.083-1.549.459-4.183t.378-3.307q.5-9.284-.335-10.623a2.336,2.336,0,0,1-.5-1.965,1.912,1.912,0,0,1,1.423-1.632q1.087-.25,2.467,1.213t1.882,1.463a3.124,3.124,0,0,0,1.13-.209,2.292,2.292,0,0,0,.795-.459l.25-.167a6.293,6.293,0,0,0,2.091,0,2.284,2.284,0,0,0,1.213-.545,2.4,2.4,0,0,0,.711-.878l.167-.419q2.091-1.087,3.179-1.756a2.261,2.261,0,0,0,.752-.795,1.665,1.665,0,0,0,.25-.711v-.335a16.638,16.638,0,0,0,3.179-1.756A3.515,3.515,0,0,0,78.542,35.8a5.613,5.613,0,0,1,1.006-1.882,4.381,4.381,0,0,0,.711-2.51,41.593,41.593,0,0,0,.043-4.183,27.691,27.691,0,0,1,0-3.1,18.308,18.308,0,0,0-.459-5.27q-.626-2.76-2.22-2.758h8.03v-.545l-.167-1.294-.419-1.632-.795-1.3-1.3-.585h-8.03q-.419-.585-1-1.423a22.9,22.9,0,0,0-2.008-2.341,4.414,4.414,0,0,0-2.341-1.589,26.762,26.762,0,0,0-4.1-.043,9.249,9.249,0,0,0-3.931.795,2.085,2.085,0,0,0-1,1.34,4.446,4.446,0,0,0-.167,1.673l.167.752a5.573,5.573,0,0,0-2.091,2.76,6.517,6.517,0,0,0-.126,2.091,15.883,15.883,0,0,0,.669,2.175,20.256,20.256,0,0,1,.711,2.258q.25,1.087,1.34,4.309a18.975,18.975,0,0,1,1.087,3.973q.083.669-.752,1.13a5.982,5.982,0,0,1-1.589.628l-.837.083a16.738,16.738,0,0,0-.167-5.52A4.883,4.883,0,0,0,57.59,21.87q-1.047-1.173-2.467-2.551T53.2,17.354q-1.756-2.008-7.863-5.6-.585-.335-1-.628a3.215,3.215,0,0,1-.628-.545,7.281,7.281,0,0,1-.5-.711q-.293-.459-.419-.669t-.457-.964q-.331-.754-.5-1.171Q40.317,3.719,28.356.457,22-1.3,16.479,4.221q-1.171,1.171-2.008,4.768t-1.839,4.685A23.017,23.017,0,0,0,9.5,18.315q-1.713,3.136-2.719,5.479a12.7,12.7,0,0,1-3.012,4.016A20.086,20.086,0,0,0,.838,31.156Q0,32.579,0,42.867Zm32.872,2.677a5.493,5.493,0,0,1,.628,2.3,4.12,4.12,0,0,0,.628,2.132,2.586,2.586,0,0,1,.419.545,3.361,3.361,0,0,1,.293.711q.124.416.209.669a4.986,4.986,0,0,1,.167.795,4.987,4.987,0,0,0,.167.795q.167,1,2.049,2.384A17.467,17.467,0,0,0,40.9,57.921a1.41,1.41,0,0,1,.545.25.916.916,0,0,1,.293.376q.083.209.126.335a.533.533,0,0,1-.083.376,3.975,3.975,0,0,1-.209.376q-.083.126-.293.459a3.159,3.159,0,0,1-.293.419Q39.9,62.184,34.045,66.2q-.921-1.423-2.132-3.721t-1.968-3.888L29.194,57q.585-4.685.752-6.105,0-.5.083-3.136t.167-4.14a9.132,9.132,0,0,1,2.677,1.925Z" transform="translate(0 -0.033)" fill="#19164d"/>
+                                            </svg>
+                                            <p class="para">Lorem ipsum</p>
+                                        </div>
+                                        <div class="footer-item">
+                                            <svg class="img mb-2" xmlns="http://www.w3.org/2000/svg" width="80.31" height="80.31" viewBox="0 0 80.31 80.31">
+                                                <path id="peace" d="M40.155,80.31a40.03,40.03,0,0,1-34.783-20A39.423,39.423,0,0,1,0,40.155,40.03,40.03,0,0,1,20,5.372,39.46,39.46,0,0,1,40.155,0,40.03,40.03,0,0,1,74.938,20,39.481,39.481,0,0,1,80.31,40.155a40.03,40.03,0,0,1-20,34.783A39.444,39.444,0,0,1,40.155,80.31Zm5.019-10.431a29.731,29.731,0,0,0,13.8-6.275l-13.8-13.8Zm-10.039,0V49.8l-13.8,13.8a29.718,29.718,0,0,0,13.8,6.275Zm-25.1-29.724a29.559,29.559,0,0,0,5.49,17.334L35.136,37.882V10.509a29.389,29.389,0,0,0-17.92,10.157A28.981,28.981,0,0,0,10.039,40.155ZM45.174,10.509V37.882L64.781,57.488a29.559,29.559,0,0,0,5.49-17.334,28.981,28.981,0,0,0-7.177-19.489,29.389,29.389,0,0,0-17.92-10.157Z" fill="#19164d"/>
+                                            </svg>
+                                            <p class="para">Lorem ipsum</p>
+                                        </div>
+                                        <div class="footer-item">
+                                            <svg class="img mb-2" xmlns="http://www.w3.org/2000/svg" width="80.313" height="80.31" viewBox="0 0 80.313 80.31">
+                                                <g id="fast-food" transform="translate(-1.125 -1.125)">
+                                                  <path id="Path_286" data-name="Path 286" d="M25.875,9h.014" transform="translate(34.144 10.864)" fill="#19164d"/>
+                                                  <path id="Path_287" data-name="Path 287" d="M60.057,14.51H44.82l1.492-5.966,6.41-2.184a2.734,2.734,0,0,0,1.782-3.3,2.677,2.677,0,0,0-3.436-1.794L43.2,3.945a2.677,2.677,0,0,0-1.732,1.885L39.3,14.51H17.377a2.729,2.729,0,0,0-2.748,2.548A2.677,2.677,0,0,0,17.3,19.864h.459l.167,1.449a1.39,1.39,0,0,0,1.383,1.228,26.917,26.917,0,0,1,16.752,5.273,20.4,20.4,0,0,1,5.835,7.12,20.647,20.647,0,0,1,1.694,4.938,1.311,1.311,0,0,0,.55.816,12.048,12.048,0,0,1,4.414,14.46,1.325,1.325,0,0,0-.026.926,16.062,16.062,0,0,1,.9,5.285,15.5,15.5,0,0,1-3.581,10.03,13.4,13.4,0,0,1-4.816,3.626,1.34,1.34,0,0,0-.7.731,18.1,18.1,0,0,1-2.905,5,.419.419,0,0,0,.319.688H45.97a8.067,8.067,0,0,0,8-7.386L59.7,19.864h.435a2.677,2.677,0,0,0,2.677-2.805A2.733,2.733,0,0,0,60.057,14.51Z" transform="translate(18.625 0)" fill="#19164d"/>
+                                                  <path id="Path_288" data-name="Path 288" d="M16.632,36.468a3.993,3.993,0,0,1,2.844,1.171l2.6,2.6a.669.669,0,0,0,.947,0l2.591-2.6a3.993,3.993,0,0,1,2.844-1.171h32.89A1.34,1.34,0,0,0,62.7,35.142v-.012a6.7,6.7,0,0,0-5.354-6.558A15.238,15.238,0,0,0,51.4,16.525a21.614,21.614,0,0,0-13.466-4.15H25.886c-11.415,0-19.146,6.487-19.408,16.2a6.7,6.7,0,0,0-5.354,6.56,1.34,1.34,0,0,0,1.34,1.34Z" transform="translate(0 15.52)" fill="#19164d"/>
+                                                  <path id="Path_289" data-name="Path 289" d="M29.558,24.75a1.34,1.34,0,0,0-.947.393l-3.7,3.7a3.346,3.346,0,0,1-4.731,0l-3.7-3.7a1.34,1.34,0,0,0-.947-.393H3.911a2.665,2.665,0,0,0-2.637,2.2,10.912,10.912,0,0,0-.15,1.813c0,5.118,3.536,9.287,7.907,9.371a13.709,13.709,0,0,0,2.872,6.6,11.4,11.4,0,0,0,8.964,4.1H42.953a11.392,11.392,0,0,0,8.964-4.107,13.742,13.742,0,0,0,2.872-6.6c4.371-.079,7.907-4.247,7.907-9.371a10.913,10.913,0,0,0-.15-1.811,2.665,2.665,0,0,0-2.637-2.2Z" transform="translate(0 32.592)" fill="#19164d"/>
+                                                </g>
+                                            </svg>
+                                            <p class="para">Lorem ipsum</p>
+                                        </div>
+                                    </div>
+                                    <svg class="scroll-down" xmlns="http://www.w3.org/2000/svg" width="433.611" height="331.104" viewBox="0 0 433.611 331.104">
+                                        <g id="Group_54629" data-name="Group 54629" transform="translate(-594 -351.896)">
+                                          <text id="Scroll_down_for_more" data-name="Scroll downfor more" transform="translate(719 545)" fill="#19164d" font-size="42" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-124.614" y="0">Scroll down</tspan><tspan x="-91.644" y="52">for more</tspan></text>
+                                          <path id="Path_290" data-name="Path 290" d="M511.528,346.1c-18.551,13.721-40.291,19.44-62.713,22.294-27.111,3.455-53.267-1.375-78.826-11.123-25.267-9.633-42.151-26.806-51.663-51.879q-22.27-58.7-6.053-119.248c1.772-6.582,3.3-13.229,4.882-19.86.1-.417-.348-.968-1.04-2.713-12.143,8.56-24.1,16.989-36.048,25.418l-2.7-2.175c.371-2.641-.253-6.349,1.263-7.756,19.647-18.242,39.411-36.373,59.6-54.015,5.45-4.761,10.371-2.953,13.885,3.885,1.9,3.7,2.48,8.081,4.344,11.808,3.494,6.982,7.569,13.669,11.247,20.562,3.357,6.286,6.5,12.684,10.161,19.85-10.949.217-13.58-1.8-33.115-24.132-1.67,3.524-3.373,6.391-4.443,9.482-12.238,35.238-19.053,70.952-11.254,108.4,10.2,48.963,24.555,66.391,80.244,80.562,31.284,7.96,61.562,1.834,91.268-8.613,3.3-1.158,6.506-2.569,9.754-3.862Z" transform="translate(1329.004 533.217) rotate(150)" fill="#19164d"/>
+                                        </g>
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="right-content">
+
+                                    <div class="card-per-day shadow-sm mb-4 bg-white">
+
+                                        <div class="left-part p-3">
+                                            <h2 class="day text-uppercase">Day</h2>
+                                            <h2 class="number text-uppercase">1</h2>
+                                        </div>
+                                        <div class="right-part p-4">
+                                            <h2 class="title text-uppercase">Arrival to Marrakech</h2>
+                                            <p class="para">Arrival to Marrakech airport and transfer to your hotel. Check in and unpack atHivernage hotel Marrakech.Dinner at your hotel. </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-per-day shadow-sm mb-4 bg-white">
+
+                                        <div class="left-part p-3">
+                                            <h2 class="day text-uppercase">Day</h2>
+                                            <h2 class="number text-uppercase">2</h2>
+                                        </div>
+                                        <div class="right-part p-4">
+                                            <h2 class="title text-uppercase">Half day sightseeing</h2>
+                                            <p class="para">Half day sightseeing of Marrakech – discover Mellah the Jewish quarter of the city visit the Synagogue of Slat Al Azama, Majorelle garden and YSL museum and Berber museum- suggested lunch at Dar Yemma– afternoon side car tour to visit the new town of Marrakech. Dinner at your hotel.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-per-day shadow-sm mb-4 bg-white">
+
+                                        <div class="left-part p-3">
+                                            <h2 class="day text-uppercase">Day</h2>
+                                            <h2 class="number text-uppercase">3</h2>
+                                        </div>
+                                        <div class="right-part p-4">
+                                            <h2 class="title text-uppercase">to High Atlas Mountains </h2>
+                                            <p class="para">Excursion day to High Atlas Mountains (about 2hours driving excluding stop)- soft trekking to reach the Berber villages and discover the local Jewish culture.Visit and discover the organic aromatic garden. Back to Marrakech. Dinner at your hotel. </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-per-day shadow-sm mb-4 bg-white">
+
+                                        <div class="left-part p-3">
+                                            <h2 class="day text-uppercase">Day</h2>
+                                            <h2 class="number text-uppercase">4</h2>
+                                        </div>
+                                        <div class="right-part p-4">
+                                            <h2 class="title text-uppercase">Morning to Skoura</h2>
+                                            <p class="para">Excursion day to High Atlas Mountains (about 2hours driving excluding stop)- soft trekking to reach the Berber villages and discover the local Jewish culture.Visit and discover the organic aromatic garden. Back to Marrakech. Dinner at your hotel. </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="modalFourHightlight" class="display-none">
 
                         <div class="hightlight-content">
 

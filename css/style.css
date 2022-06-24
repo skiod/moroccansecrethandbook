@@ -2197,11 +2197,11 @@ section {
 }
 
 .focus-one {
-    width:200% !important;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* width:200% !important; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
     z-index: 1;
-    transition: ease-in-out .2s;
+    /* transition: ease-in-out .2s; */
   }
 
 

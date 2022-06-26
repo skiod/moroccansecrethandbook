@@ -133,7 +133,7 @@ section {
   opacity: 0;
   right: 5%;
   bottom: 5%;
-  z-index: 99999;
+  z-index: 10;
   background: #4154f1;
   width: 55px;
   height: 44px;

@@ -8,6 +8,30 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+*, 
+*:before, 
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  :root {
+    --accent: #016;
+    --size: 2.5rem;
+    --duration: 1s;
+  }
+  .loading-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 998;
+    overflow: initial;
+    position: fixed;
+    background: white;
+    overflow: hidden;
+  }
+  
 .main-color{
   color: #19164d
 }
@@ -70,7 +94,7 @@ section {
   .section-header p {
     font-size: 28px;
     line-height: 32px;
-  }
+  } 
 }
 
 /*--------------------------------------------------------------
@@ -2439,6 +2463,27 @@ section {
   }
   .our-selected-tours .custom-card{
     margin:auto !important;
+  }
+
+  .hightlight-card-header .img{
+    margin-left: 14%;
+  }
+
+  .hightlight-card-header .title{
+    font-size: 1.2rem;
+  }
+
+  .overview-container{
+    padding: 0 !important;
+  }
+
+  .left-content .scroll-down{
+    right: 0 !important;
+    width: 125px !important;
+    bottom: -130px !important;
+  }
+  .hightlight-content .hightlight-section .hightlight-card-header{
+    width: 100% !important;
   }
 }
 

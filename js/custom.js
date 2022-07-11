@@ -27,6 +27,12 @@ $('#owl-carousel-two').owlCarousel({
 
 
 $('#one-img').click(() => {
+    removeClass()
+    $('#overviewOne a').addClass('highlight-nav')
+    $('#overviewTwo a').addClass('highlight-nav')
+    $('#overviewTree a').addClass('highlight-nav')
+    $('#overviewFour a').addClass('highlight-nav')
+
     if ($('#one-img').hasClass('focus-one')) {
         $('#one-img').removeClass('focus-one')
         $('#bawsala').css('transform', 'initial')
@@ -37,6 +43,11 @@ $('#one-img').click(() => {
 })
 
 $('#two-img').click(() => {
+    removeClass()
+    $('#overviewOne a').addClass('highlight-nav')
+    $('#overviewTwo a').addClass('highlight-nav')
+    $('#overviewTree a').addClass('highlight-nav')
+    $('#overviewFour a').addClass('highlight-nav')
     if ($('#two-img').hasClass('focus-one')) {
         $('#two-img').removeClass('focus-one')
         $('#bawsala').css('transform', 'initial')
@@ -48,6 +59,11 @@ $('#two-img').click(() => {
 })
 
 $('#tree-img').click(() => {
+    removeClass()
+    $('#overviewOne a').addClass('highlight-nav')
+    $('#overviewTwo a').addClass('highlight-nav')
+    $('#overviewTree a').addClass('highlight-nav')
+    $('#overviewFour a').addClass('highlight-nav')
     if ($('#tree-img').hasClass('focus-one')) {
         $('#tree-img').removeClass('focus-one')
         $('#bawsala').css('transform', 'initial')
@@ -59,6 +75,11 @@ $('#tree-img').click(() => {
 })
 
 $('#four-img').click(() => {
+    removeClass()
+    $('#overviewOne a').addClass('highlight-nav')
+    $('#overviewTwo a').addClass('highlight-nav')
+    $('#overviewTree a').addClass('highlight-nav')
+    $('#overviewFour a').addClass('highlight-nav')
     if ($('#four-img').hasClass('focus-one')) {
         $('#four-img').removeClass('focus-one')
         $('#bawsala').css('transform', 'initial')
@@ -70,7 +91,8 @@ $('#four-img').click(() => {
 
 // # Overview One
 $('#overviewOne').click(() => {
-
+    removeClass()
+    $('#overviewOne a').addClass('highlight-nav')
     $('#modalOneOverview').removeClass('display-none')
     if (!$('#modalOneItinerary').hasClass('display-none')) {
         $('#modalOneItinerary').addClass('display-none')
@@ -80,9 +102,13 @@ $('#overviewOne').click(() => {
     }
   })
 
+
+
+
   // # Overview Two
   $('#overviewTwo').click(() => {
-
+    removeClass()
+    $('#overviewTwo a').addClass('highlight-nav')
     $('#modalTwoOverview').removeClass('display-none')
     if (!$('#modalTwoItinerary').hasClass('display-none')) {
         $('#modalTwoItinerary').addClass('display-none')
@@ -94,7 +120,8 @@ $('#overviewOne').click(() => {
 
   // # Overview Tree
   $('#overviewTree').click(() => {
-
+    removeClass()
+    $('#overviewTree a').addClass('highlight-nav')
     $('#modalTreeOverview').removeClass('display-none')
     if (!$('#modalTreeItinerary').hasClass('display-none')) {
         $('#modalTreeItinerary').addClass('display-none')
@@ -106,7 +133,8 @@ $('#overviewOne').click(() => {
 
   // # Overview Four
   $('#overviewFour').click(() => {
-
+    removeClass()
+    $('#overviewFour a').addClass('highlight-nav')
     $('#modalFourOverview').removeClass('display-none')
     if (!$('#modalFourItinerary').hasClass('display-none')) {
         $('#modalFourItinerary').addClass('display-none')
@@ -116,9 +144,11 @@ $('#overviewOne').click(() => {
     }
   })
 
+
   // # Itinerary One
 $('#itineraryOne').click(() => {
-
+    removeClass()
+    $('#itineraryOne a').addClass('highlight-nav')
     $('#modalOneItinerary').removeClass('display-none')
     if (!$('#modalOneOverview').hasClass('display-none')) {
         $('#modalOneOverview').addClass('display-none')
@@ -130,7 +160,8 @@ $('#itineraryOne').click(() => {
 
   // # Itinerary Two
   $('#itineraryTwo').click(() => {
-
+    removeClass()
+    $('#itineraryTwo a').addClass('highlight-nav')
     $('#modalTwoItinerary').removeClass('display-none')
     if (!$('#modalTwoOverview').hasClass('display-none')) {
         $('#modalTwoOverview').addClass('display-none')
@@ -142,7 +173,8 @@ $('#itineraryOne').click(() => {
 
   // # Itinerary Tree
   $('#itineraryTree').click(() => {
-
+    removeClass()
+    $('#itineraryTree a').addClass('highlight-nav')
     $('#modalTreeItinerary').removeClass('display-none')
     if (!$('#modalTreeOverview').hasClass('display-none')) {
         $('#modalTreeOverview').addClass('display-none')
@@ -154,7 +186,8 @@ $('#itineraryOne').click(() => {
 
   // # Itinerary Four
   $('#itineraryFour').click(() => {
-
+    removeClass()
+    $('#itineraryFour a').addClass('highlight-nav')
     $('#modalFourItinerary').removeClass('display-none')
     if (!$('#modalFourOverview').hasClass('display-none')) {
         $('#modalFourOverview').addClass('display-none')
@@ -167,7 +200,8 @@ $('#itineraryOne').click(() => {
 
 // # Hightlight One
 $('#hightlightOne').click(() => {
-
+    removeClass()
+    $('#hightlightOne a').addClass('highlight-nav')
     $('#modalOneHightlight').removeClass('display-none')
     if (!$('#modalOneOverview').hasClass('display-none')) {
         $('#modalOneOverview').addClass('display-none')
@@ -179,7 +213,8 @@ $('#hightlightOne').click(() => {
 
   // # Hightlight Two
   $('#hightlightTwo').click(() => {
-
+    removeClass()
+    $('#hightlightTwo a').addClass('highlight-nav')
     $('#modalTwoHightlight').removeClass('display-none')
     if (!$('#modalTwoOverview').hasClass('display-none')) {
         $('#modalTwoOverview').addClass('display-none')
@@ -191,7 +226,8 @@ $('#hightlightOne').click(() => {
 
   // # Hightlight Tree
   $('#hightlightTree').click(() => {
-
+    removeClass()
+    $('#hightlightTree a').addClass('highlight-nav')
     $('#modalTreeHightlight').removeClass('display-none')
     if (!$('#modalTreeOverview').hasClass('display-none')) {
         $('#modalTreeOverview').addClass('display-none')
@@ -203,7 +239,8 @@ $('#hightlightOne').click(() => {
 
   // # Hightlight Four
   $('#hightlightFour').click(() => {
-
+    removeClass()
+    $('#hightlightFour a').addClass('highlight-nav')
     $('#modalFourHightlight').removeClass('display-none')
     if (!$('#modalFourOverview').hasClass('display-none')) {
         $('#modalFourOverview').addClass('display-none')
@@ -212,3 +249,19 @@ $('#hightlightOne').click(() => {
         $('#modalFourItinerary').addClass('display-none')
     }
   })
+
+
+function removeClass(){
+    $('#hightlightFour a').removeClass('highlight-nav')
+    $('#hightlightTree a').removeClass('highlight-nav')
+    $('#hightlightTwo a').removeClass('highlight-nav')
+    $('#hightlightOne a').removeClass('highlight-nav')
+    $('#itineraryFour a').removeClass('highlight-nav')
+    $('#itineraryTree a').removeClass('highlight-nav')
+    $('#itineraryTwo a').removeClass('highlight-nav')
+    $('#itineraryOne a').removeClass('highlight-nav')
+    $('#overviewFour a').removeClass('highlight-nav')
+    $('#overviewTree a').removeClass('highlight-nav')
+    $('#overviewTwo a').removeClass('highlight-nav')
+    $('#overviewOne a').removeClass('highlight-nav')
+}

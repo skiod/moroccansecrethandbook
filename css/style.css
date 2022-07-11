@@ -3053,3 +3053,9 @@ section {
 .para-x{
   font-size: 16px !important;font-weight: 400 !important
 }
+
+
+.highlight-nav{
+  border-bottom: #ffffff 0.125em solid;
+  padding: 5px;
+}

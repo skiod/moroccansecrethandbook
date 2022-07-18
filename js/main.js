@@ -7,7 +7,7 @@
 (function() {
   "use strict";
 
-  $('.loading-container').css('display','none')
+  $('.loading-container').hide()
   /**
    * Easy selector helper function
    */

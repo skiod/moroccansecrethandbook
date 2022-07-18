@@ -2550,6 +2550,25 @@ section {
   font-weight: 400;
 }
 
+#modalOneOverview .para,
+#modalOneItinerary .para,
+#modalOneHightlight .para,
+
+#modalTwoItinerary .para,
+#modalTwoOverview .para,
+#modalTwoHightlight .para,
+
+#modalTreeItinerary .para,
+#modalTreeOverview .para,
+#modalTreeHightlight .para,
+
+#modalFourItinerary .para,
+#modalFourOverview .para,
+#modalFourHightlight .para
+{
+  font-size: 16px !important;font-weight: 400 !important
+}
+
 /* CSS For Itinerary: */
 
 #modalOneItinerary .left-content{
@@ -3103,4 +3122,10 @@ section {
 .highlight-nav{
   border-bottom: #ffffff 0.125em solid;
   padding: 5px;
+}
+
+
+#one:hover, #two:hover, #tree:hover, #four:hover{
+  transition: all .5s;
+  transform: scale(1.02);
 }

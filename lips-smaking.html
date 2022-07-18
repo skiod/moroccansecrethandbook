@@ -66,7 +66,7 @@
                     <li><a class="nav-link scrollto active" href="about.html">ABOUT US</a></li>
                     <li><a class="nav-link scrollto active" href="products.html">OUR PRODUCTS</a></li>
                     <!-- <li><img src="img/logow.png" style="width: 80px;" /></li> -->
-                    <li><a href="" style="padding:0"><img src="img/logo-svg-text.svg" style="width: 80px;" /></a></li>
+                    <li><a href="index.html" style="padding:0;display:inline-block"><img src="img/logo-svg-text.svg" style="width: 80px;" /></a></li>
 
                     <li><a class="nav-link scrollto active" href="events.html">EVENTS</a></li>
                     <li><a class="nav-link scrollto active" href="concierge.html">CONCEIRGERIE</a></li>
@@ -113,11 +113,36 @@
                 <img src="img/book.svg" alt="">
 
                 <div>
-                <img src="img/circle.svg" alt=""><span class="us"> Go Local -Traditional Moroccan cooking with the family:</span>
+                <img src="img/circle.svg" alt="">
+                <a class="" style="color:inherit !important" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
+                  <span class="us" > Go Local -Traditional Moroccan cooking with the family:</span>
+                </a>
+                <div class="collapse" id="collapse1">
+                  <div class="card-body">
+                    <p>we encourage you to interact and create a truly unique experience as you spend your half day for lunch or dinner  hosted by a Moroccan family, preparing food, visiting the souks and baking at the local farine, finishing with a meal that you’ll all share together in traditional Moroccan style. This class is a complete immersion into the Moroccan culture and family life.</p>
+                  </div>
+                </div>
+
                 <br>
-                <img src="img/circle.svg" alt=""><span class="us"> Farm to table cooking:</span>
+                <img src="img/circle.svg" alt="">
+                  <a class="" style="color:inherit !important" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">
+                    <span class="us"> Farm to table cooking:</span>
+                  </a>
+                  <div class="collapse" id="collapse2">
+                    <div class="card-body">
+                      <p>Our Chef guide you through the process of choosing only the finest ingredients to bring gourmet farm to table cooking into your kitchen. In this tour, we bring you the best hands-on cooking classes and teach you an authentic Moroccan meal of delicious traditional dishes.</p>
+                    </div>
+                  </div>
                 <br>
-                <img src="img/circle.svg" alt=""><span class="us"> souk tasting trails:</span>
+                <img src="img/circle.svg" alt="">
+                <a class="" style="color:inherit !important" data-bs-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3">
+                  <span class="us"> souk tasting trails:</span>
+                </a>
+                <div class="collapse" id="collapse3">
+                  <div class="card-body">
+                    <p>you will visit the souks or old medinas where there are varied souks allowing the chance to try traditional Moroccan street food including dried meats, milawi, harsha, briwats, spicy sardines,…. Souks of Honey to taste an array of delicious wild honeys, discuss their flavors and health-giving properties and find out why honey is so important in Moroccan cooking and Islamic culture. We’ll investigate traditional cooking methods by visiting a farnatchi where the water for the communal bath house ‘hammam’ is also heated, and a 400 year old ‘furan’ or communal oven and bakery. Discover the world of spices and their uses and the secrets of the male-oriented domain of the tea den under the guidance of a culinary leader and story-teller.</p>
+                  </div>
+                </div>
                 </div>
             </div>
 
@@ -296,6 +321,12 @@
 
     <!-- Template Main JS File -->
     <script src="js/main.js"></script>
+    <script>
+      var collapseElementList = [].slice.call(document.querySelectorAll('.collapse'))
+      var collapseList = collapseElementList.map(function (collapseEl) {
+        // return new bootstrap.Collapse(collapseEl)
+      })
+    </script>
 
 </body>
 

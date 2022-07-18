@@ -2445,11 +2445,11 @@ section {
   }
 
   .bawsala-card{
-    height: 400px !important;
+    height: 156px !important;
   }
   #bawsala {
-    height:150px !important;
-    width:150px !important;
+    height:125px !important;
+    width:125px !important;
   }
 
   .our-selected-tours{
@@ -3128,4 +3128,44 @@ section {
 #one:hover, #two:hover, #tree:hover, #four:hover{
   transition: all .5s;
   transform: scale(1.02);
+}
+
+.loader {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  border: 10px solid orange;
+  border-top-color: #002147;
+  box-sizing: border-box;
+  background: transparent;
+  animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  0% {
+    transform: rotate(360deg);
+  }
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+
+#loader-container{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 100%;
+  z-index: 99999;
+  position: absolute;
 }

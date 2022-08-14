@@ -8,6 +8,50 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Futura PT'), url('../fonts/FuturaCyrillicBook.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Futura PT'), url('../fonts/FuturaCyrillicLight.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 450;
+  src: local('Futura PT'), url('../fonts/FuturaCyrillicMedium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Futura PT'), url('../fonts/FuturaCyrillicDemi.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Futura PT'), url('../fonts/FuturaCyrillicHeavy.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Futura PT'), url('../fonts/FuturaCyrillicBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Futura PT'), url('../fonts/FuturaCyrillicExtraBold.woff') format('woff');
+}
+
 *, 
 *:before, 
 *:after {
@@ -2491,7 +2535,7 @@ section {
 
 /* Modal One */
 .bawsala-card{
-  height:600px;
+  height:400px;
   padding:0;
   position:relative;
   cursor: pointer;

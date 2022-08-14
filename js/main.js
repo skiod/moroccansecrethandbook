@@ -6,8 +6,7 @@
 */
 (function() {
   "use strict";
-
-  $('#loader-container').hide()
+  $('#loader-container').fadeOut()
   /**
    * Easy selector helper function
    */

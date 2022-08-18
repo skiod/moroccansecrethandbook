@@ -224,6 +224,31 @@ $('#hightlightOne').click(() => {
   })
 
 
+$('#modalOne').on('hidden.bs.modal', function () {
+    console.log('one')
+    $('#modalOneOverview').removeClass('display-none')
+    removeClass()
+});
+
+$('#modalTwo').on('hidden.bs.modal', function () {
+    console.log('two')
+    $('#modalTwoOverview').removeClass('display-none')
+    removeClass()
+});
+
+$('#modalTree').on('hidden.bs.modal', function () {
+    console.log('three')
+    $('#modalTreeOverview').removeClass('display-none')
+    removeClass()
+});
+
+$('#modalFour').on('hidden.bs.modal', function () {
+    console.log('four')
+    $('#modalFourOverview').removeClass('display-none')
+    removeClass()
+});
+
+
 function removeClass(){
     $('#hightlightFour a').removeClass('highlight-nav')
     $('#hightlightTree a').removeClass('highlight-nav')

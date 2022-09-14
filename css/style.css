@@ -2446,7 +2446,9 @@ section {
 
 
 @media (max-width: 780px) {
-
+  .text-in-modal{
+    font-size: 13px !important;
+  }
   .hero{
     height:600px;
   }

@@ -62,6 +62,14 @@
             border-radius: 50%;
             top: 2%;
         }
+
+        .text-in-modal{
+            position: absolute;
+            color: white;
+            z-index: 999;
+            font-size: 31px;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -443,21 +451,27 @@
             margin:auto;z-index:2">
             <div class="row bawsala" style="height:100%">
                 <div id="one" class="col-6 bawsala-card" data-bs-toggle="modal" data-bs-target="#modalTwo">
+                    <span class="text-in-modal" style="top: 3%;left: 3%">THE NORTH OF MOROCCO <br>
+                    AND THE IMPERIAL CITIES</span>
                     <div id="one-img"
                         style="width:100%;height:100%;position:absolute;left:0;background-image: url('img/popup-imperial-cities.png');background-size: cover;background-repeat: no-repeat;">
                     </div>
                 </div>
                 <div id="two" class="col-6 bawsala-card" data-bs-toggle="modal" data-bs-target="#modalFour">
+                    <span class="text-in-modal" style="top: 3%;right: 3%; text-align:right">MARRAKECH, THE ATLAS <br>
+                       MOUNTAINS AND THE SOUTH OF MOROCCO</span>
                     <div id="two-img"
                         style="width:100%;height:100%;position:absolute;right:0;background-image: url('img/popup-marrakech-south-morocco.png');background-size: cover;background-repeat: no-repeat;">
                     </div>
                 </div>
                 <div id="tree" class="col-6 bawsala-card" data-bs-toggle="modal" data-bs-target="#modalTree">
-                    <div id="tree-img"
+                    <span class="text-in-modal" style="bottom: 10%;left: 3%">MOROCCO MARRAKECH AND AGAFAY</span>
+                    <div  id="tree-img"
                         style="width:100%;height:100%;position:absolute;left:0;background-image: url('img/popup-marrakech-aggafay.png');background-size: cover;background-repeat: no-repeat;">
                     </div>
                 </div>
                 <div id="four" class="col-6 bawsala-card" data-bs-toggle="modal" data-bs-target="#modalOne">
+                    <span class="text-in-modal" style="bottom: 10%;right: 3%;text-align:right">MOROCCO JEWISH HERITAGE TOUR</span>
                     <div id="four-img"
                         style="width:100%;height:100%;position:absolute;right:0;background-image: url('img/popup-morocco-jewish-heritage.png');background-size: cover;background-repeat: no-repeat;">
                     </div>

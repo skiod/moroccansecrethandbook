@@ -62,7 +62,7 @@
     <section id="hero" class="herox align-items-center" style="padding-bottom: 30rem;">
         <div class="hero-bg" style="background-image: url(./img/lips-smaking.png) !important;background-repeat: no-repeat;background-size: cover !important"></div>
         <div style="position:relative">
-            <img src="/img/Colored.png" style="position: absolute;left: -13rem;top: -4rem;width: 300px;" alt="moroccan secret handbook">
+            <!-- <img src="/img/Colored.png" style="position: absolute;left: -13rem;top: -4rem;width: 300px;" alt="moroccan secret handbook"> -->
         </div>
         <div class="container container-custom-card-x" style="top:80% !important; bottom:initial !important">
             <div class="custom-card-x">
@@ -258,6 +258,9 @@
                 <div class="col-md-12">
                   <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
                 </div>
+
+                <div class="g-recaptcha" data-sitekey="6LdOG0siAAAAAGXuYRpYFNm0WzJ5CmfmNKPv6SRI"></div>
+
   
                 <div class="col-md-12 text-center">
                   <div class="loading">Loading</div>
@@ -299,6 +302,9 @@
           var collapseElementList = [].slice.call(document.querySelectorAll('.collapse'))
           var collapseList = collapseElementList.map(function (collapseEl) {})
         </script>
+
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </body>
 
 </html>
